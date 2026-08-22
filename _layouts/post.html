@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article>
+  <header class="post-header">
+    <span class="eyebrow">Announcement</span>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="page-intro">
+      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%-d %B %Y' }}</time>
+    </p>
+  </header>
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

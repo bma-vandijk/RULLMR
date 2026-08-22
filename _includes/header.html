@@ -1,0 +1,28 @@
+<header class="site-header" role="banner">
+  <div class="wrapper wrapper-wide header-inner">
+    <a class="brand" rel="author" href="{{ '/' | relative_url }}">
+      <span class="brand-mark" aria-hidden="true">R</span>
+      <span class="brand-text">
+        <span class="brand-name">RULLMR</span>
+        <span class="brand-sub">Responsible use of LLMs in research</span>
+      </span>
+    </a>
+
+    <nav class="site-nav" aria-label="Main">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger">
+      <label for="nav-trigger" class="menu-toggle">
+        <span class="visually-hidden">Menu</span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </label>
+      <div class="nav-links">
+        {%- assign current = page.url -%}
+        {%- for path in site.header_pages -%}
+          {%- assign item = site.pages | where: "path", path | first -%}
+          {%- if item -%}
+            <a class="nav-link{% if item.url == current %} is-active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    </nav>
+  </div>
+</header>

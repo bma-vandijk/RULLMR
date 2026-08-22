@@ -1,0 +1,43 @@
+title: RULLMR
+tagline: Responsible Use of Large Language Models in Research
+description: >-
+  An eight-session, practice-oriented course for researchers who want to use
+  large language models critically, effectively, and responsibly.
+url: https://bma-vandijk.github.io
+baseurl: /RULLMR
+
+# Shown in the header and footer; edit here to update every page.
+institution: LUMC
+department: Clinical Epidemiology
+credits: 1.5 EC
+duration: 3 months
+contact_name: Lodewijk Pet
+contact_role: Division 6, Clinical Epidemiology
+contact_email: l.a.pet@lumc.nl
+contact_phone: "66553"
+
+# Navigation order (Home is the site title, not a tab).
+header_pages:
+  - syllabus.md
+  - schedule.md
+  - resources.md
+  - about.md
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - course_outline.md
+
+author: Lodewijk Pet
