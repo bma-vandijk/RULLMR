@@ -1,28 +1,48 @@
-<header class="site-header" role="banner">
-  <div class="wrapper wrapper-wide header-inner">
-    <a class="brand" rel="author" href="{{ '/' | relative_url }}">
-      <span class="brand-mark" aria-hidden="true">R</span>
-      <span class="brand-text">
-        <span class="brand-name">RULLMR</span>
-        <span class="brand-sub">Responsible use of LLMs in research</span>
-      </span>
-    </a>
-
-    <nav class="site-nav" aria-label="Main">
-      <input type="checkbox" id="nav-trigger" class="nav-trigger">
-      <label for="nav-trigger" class="menu-toggle">
-        <span class="visually-hidden">Menu</span>
-        <span class="hamburger" aria-hidden="true"></span>
-      </label>
-      <div class="nav-links">
-        {%- assign current = page.url -%}
-        {%- for path in site.header_pages -%}
-          {%- assign item = site.pages | where: "path", path | first -%}
-          {%- if item -%}
-            <a class="nav-link{% if item.url == current %} is-active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-          {%- endif -%}
-        {%- endfor -%}
-      </div>
-    </nav>
+<div class="site-chrome">
+  <div class="construction-banner" role="status">
+    <div class="wrapper wrapper-wide">
+      <p><strong>Under construction</strong> This course page is a draft. Information here is not final and is subject to change.</p>
+    </div>
   </div>
-</header>
+
+  <header class="site-header" role="banner">
+    <div class="wrapper wrapper-wide header-inner">
+      <a class="brand" rel="author" href="{{ '/' | relative_url }}">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span class="brand-text">
+          <span class="brand-name">RULLMR</span>
+          <span class="brand-sub">Responsible use of LLMs in research</span>
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false" aria-label="Switch to dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 14.3A8.5 8.5 0 1 1 9.7 3 7 7 0 0 0 21 14.3z"/>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 3v1.5M12 19.5V21M4.9 4.9l1.1 1.1M18 18l1.1 1.1M3 12h1.5M19.5 12H21M4.9 19.1 6 18M18 6l1.1-1.1"/>
+          </svg>
+        </button>
+
+        <nav class="site-nav" aria-label="Main">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger" class="menu-toggle">
+            <span class="visually-hidden">Menu</span>
+            <span class="hamburger" aria-hidden="true"></span>
+          </label>
+          <div class="nav-links">
+            {%- assign current = page.url -%}
+            {%- for path in site.header_pages -%}
+              {%- assign item = site.pages | where: "path", path | first -%}
+              {%- if item -%}
+                <a class="nav-link{% if item.url == current %} is-active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+</div>

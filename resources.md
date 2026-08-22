@@ -6,10 +6,42 @@ permalink: /resources/
 
 <header class="post-header">
   <h1 class="post-title">Resources</h1>
-  <p class="page-intro">Starting points for the course. Links and readings will be filled in as materials are confirmed.</p>
+  <p class="page-intro">Readings, institutional guidance, and files for the practical sessions. Materials will appear here as they are ready.</p>
 </header>
 
 <div class="post-content">
+
+## Practical session files
+
+Notebooks, data, and environment files for the sessions live in this repository and can be downloaded from the table below. Drop new files into `assets/practicals/` and they will be listed here after the site rebuilds.
+
+{% assign downloads = site.static_files
+  | where_exp: "f", "f.relative_path contains 'assets/practicals/'"
+  | where_exp: "f", "f.name != 'README.txt'"
+  | where_exp: "f", "f.name != '.gitkeep'" %}
+
+{% if downloads.size > 0 %}
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Location</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for f in downloads %}
+    <tr>
+      <td class="download-name">{{ f.name }}</td>
+      <td class="download-meta">{{ f.relative_path | replace: "/assets/practicals/", "" | replace: "assets/practicals/", "" }}</td>
+      <td><a href="{{ f.url | relative_url }}" download>Download</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p>No session files have been uploaded yet.</p>
+{% endif %}
 
 ## Course materials
 
@@ -34,9 +66,5 @@ The course does not require one vendor. These names are here so participants hav
 ## Further reading
 
 A short, non-technical reading list will appear here. Suggestions welcome.
-
-## Questions
-
-Contact <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.
 
 </div>

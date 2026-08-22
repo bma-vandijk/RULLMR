@@ -1,8 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      (function () {
+        try {
+          var theme = localStorage.getItem("rullmr-theme");
+          if (theme === "dark" || theme === "light") {
+            document.documentElement.setAttribute("data-theme", theme);
+          }
+        } catch (e) {}
+      })();
+    </script>
     {%- seo -%}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,5 +31,6 @@
     </main>
     {%- include footer.html -%}
     <script src="{{ '/assets/js/accordion.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
   </body>
 </html>

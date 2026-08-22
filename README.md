@@ -14,16 +14,19 @@ This is a [Jekyll](https://jekyllrb.com/) site. You edit Markdown; GitHub builds
 | `_config.yml` | Site-wide name, URL, contact, and which pages appear as tabs |
 | `index.md` | Home |
 | `about.md`, `syllabus.md`, `schedule.md`, `resources.md` | The four tabs |
-| `_posts/` | Dated announcements listed on Home |
 | `_layouts/default.html` | Shared page frame (head, header, footer) |
-| `_includes/header.html` | Logo and navigation |
+| `_includes/header.html` | Draft banner, logo, tabs, and theme toggle |
 | `_includes/footer.html` | Footer line |
 | `assets/css/main.scss` | Colours, type, layout. Start here to change the look |
+| `assets/js/theme.js` | Light/dark switch (light is the default) |
 | `assets/js/accordion.js` | Opens and closes session lists on Syllabus and Schedule |
+| `assets/practicals/` | Notebooks, data, and environment files listed on Resources |
 | `.github/workflows/pages.yml` | Builds and publishes the site on every push to `main` |
 | `course_outline.md` | Working notes for authors; not published as a page |
 
-Everyday content edits belong in the `.md` files. You do not need to touch the JavaScript unless you change accordion class names.
+Everyday content edits belong in the `.md` files. Add practical files under `assets/practicals/` (one subfolder per session is a good habit). They are copied to the live site and listed automatically on the Resources page.
+
+GitHub Pages can host notebooks, CSVs, `environment.yml`, and `env.example` files without a second repository. Keep secrets out of git. Files above roughly 50–100 MB are better on GitHub Releases, Zenodo, or OSF, with a link from Resources.
 
 ## Local preview (optional)
 
