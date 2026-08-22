@@ -3,14 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
     <script>
       (function () {
+        var theme = "light";
         try {
-          var theme = localStorage.getItem("rullmr-theme");
-          if (theme === "dark" || theme === "light") {
-            document.documentElement.setAttribute("data-theme", theme);
-          }
+          if (localStorage.getItem("rullmr-theme") === "dark") theme = "dark";
         } catch (e) {}
+        var root = document.documentElement;
+        root.setAttribute("data-theme", theme);
+        root.style.colorScheme = theme;
+        var meta = document.querySelector('meta[name="color-scheme"]');
+        if (meta) meta.setAttribute("content", theme);
       })();
     </script>
     {%- seo -%}
@@ -31,6 +35,5 @@
     </main>
     {%- include footer.html -%}
     <script src="{{ '/assets/js/accordion.js' | relative_url }}" defer></script>
-    <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
   </body>
 </html>

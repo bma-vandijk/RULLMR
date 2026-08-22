@@ -1,48 +1,67 @@
 <div class="site-chrome">
   <div class="construction-banner" role="status">
     <div class="wrapper wrapper-wide">
-      <p><strong>Under construction</strong> This course page is a draft. Information here is not final and is subject to change.</p>
+      <p><strong>Under construction.</strong> This page is a draft. Information here is not final and is subject to change.</p>
     </div>
   </div>
 
   <header class="site-header" role="banner">
     <div class="wrapper wrapper-wide header-inner">
       <a class="brand" rel="author" href="{{ '/' | relative_url }}">
-        <span class="brand-mark" aria-hidden="true">R</span>
-        <span class="brand-text">
-          <span class="brand-name">RULLMR</span>
-          <span class="brand-sub">Responsible use of LLMs in research</span>
-        </span>
+        <span class="brand-name">Responsible Use of Large Language Models in Research</span>
       </a>
 
-      <div class="header-actions">
+      <nav class="site-nav" aria-label="Main">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger" class="menu-toggle">
+          <span class="visually-hidden">Menu</span>
+          <span class="hamburger" aria-hidden="true"></span>
+        </label>
+
+        <div class="nav-links">
+          {%- assign current = page.url -%}
+          {%- for path in site.header_pages -%}
+            {%- assign item = site.pages | where: "path", path | first -%}
+            {%- if item -%}
+              <a class="nav-link{% if item.url == current %} is-active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+
         <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false" aria-label="Switch to dark mode">
-          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M21 14.3A8.5 8.5 0 1 1 9.7 3 7 7 0 0 0 21 14.3z"/>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M21 14.35A9 9 0 1 1 9.65 3 7.5 7.5 0 0 0 21 14.35z"/>
           </svg>
-          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
-            <circle cx="12" cy="12" r="4"/>
-            <path d="M12 3v1.5M12 19.5V21M4.9 4.9l1.1 1.1M18 18l1.1 1.1M3 12h1.5M19.5 12H21M4.9 19.1 6 18M18 6l1.1-1.1"/>
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle fill="currentColor" cx="12" cy="12" r="4.25"/>
+            <path fill="currentColor" d="M12 2.25a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V3A.75.75 0 0 1 12 2.25zm0 16.5a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V19.5a.75.75 0 0 1 .75-.75zM4.72 4.72a.75.75 0 0 1 1.06 0l1.06 1.06a.75.75 0 0 1-1.06 1.06L4.72 5.78a.75.75 0 0 1 0-1.06zm12.44 12.44a.75.75 0 0 1 1.06 0l1.06 1.06a.75.75 0 1 1-1.06 1.06l-1.06-1.06a.75.75 0 0 1 0-1.06zM2.25 12a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 2.25 12zm16.5 0a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5H19.5a.75.75 0 0 1-.75-.75zM4.72 19.28a.75.75 0 0 1 0-1.06l1.06-1.06a.75.75 0 1 1 1.06 1.06l-1.06 1.06a.75.75 0 0 1-1.06 0zm12.44-12.44a.75.75 0 0 1 0-1.06l1.06-1.06a.75.75 0 1 1 1.06 1.06l-1.06 1.06a.75.75 0 0 1-1.06 0z"/>
           </svg>
         </button>
-
-        <nav class="site-nav" aria-label="Main">
-          <input type="checkbox" id="nav-trigger" class="nav-trigger">
-          <label for="nav-trigger" class="menu-toggle">
-            <span class="visually-hidden">Menu</span>
-            <span class="hamburger" aria-hidden="true"></span>
-          </label>
-          <div class="nav-links">
-            {%- assign current = page.url -%}
-            {%- for path in site.header_pages -%}
-              {%- assign item = site.pages | where: "path", path | first -%}
-              {%- if item -%}
-                <a class="nav-link{% if item.url == current %} is-active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-              {%- endif -%}
-            {%- endfor -%}
-          </div>
-        </nav>
-      </div>
+      </nav>
     </div>
   </header>
 </div>
+<script>
+  (function () {
+    var root = document.documentElement;
+    var btn = document.getElementById("theme-toggle");
+    var meta = document.querySelector('meta[name="color-scheme"]');
+    if (!btn) return;
+
+    function setTheme(theme) {
+      root.setAttribute("data-theme", theme);
+      root.style.colorScheme = theme;
+      if (meta) meta.setAttribute("content", theme);
+      try {
+        localStorage.setItem("rullmr-theme", theme);
+      } catch (e) {}
+      var dark = theme === "dark";
+      btn.setAttribute("aria-pressed", dark ? "true" : "false");
+      btn.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+    }
+
+    btn.addEventListener("click", function () {
+      setTheme(root.getAttribute("data-theme") === "dark" ? "light" : "dark");
+    });
+  })();
+</script>
