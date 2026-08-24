@@ -17,7 +17,7 @@ This is a [Jekyll](https://jekyllrb.com/) site. You edit Markdown; GitHub builds
 | `_layouts/default.html` | Shared page frame (head, header, footer) |
 | `_includes/header.html` | Draft banner, course name, tabs, and theme toggle |
 | `_includes/footer.html` | Footer line |
-| `assets/css/main.scss` | Colours, type, layout. Start here to change the look |
+| `assets/css/main.css` | Colours, type, layout. Start here to change the look |
 | `assets/js/accordion.js` | Opens and closes session lists on Syllabus and Schedule |
 | `assets/practicals/` | Notebooks, data, and environment files listed on Resources |
 | `.github/workflows/pages.yml` | Builds and publishes the site on every push to `main` |

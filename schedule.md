@@ -6,18 +6,17 @@ permalink: /schedule/
 
 <header class="post-header">
   <h1 class="post-title">Schedule</h1>
-  <p class="page-intro">Eight sessions over three months. Exact dates and rooms will be added here once they are confirmed.</p>
+  <p class="page-intro"> Three introduction sessions cover background on LLMs in detail, after which seven practical sessions focus on different steps in a research workflow. These practical sessions can be chosen in a modular fashion. </p>
 </header>
-
-<div class="post-content">
 
 ## Overview
 
-Theme sessions follow the research cycle. Each meeting mixes preparation, paired discussion, group discussion, exercises, and reflection.
+<div class="post-content">
+
 
 <div class="callout">
-  <strong>Dates to be announced</strong>
-  Placeholders below keep the structure visible so we can drop in times later without redesigning the page.
+  <strong>Note</strong>
+  The three introduction sessions are similar, to accommodate more participants looking for basic knowledge on LLMs.  
 </div>
 
 <div class="parts-accordion" id="schedule">
@@ -25,18 +24,47 @@ Theme sessions follow the research cycle. Each meeting mixes preparation, paired
   <div class="part" data-part="0">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">00</span>
-      <span class="part-name">Introduction</span>
-      <span class="meta">TBA</span>
+      <span class="part-name">Introduction session 1</span>
+      <span class="meta"> 9 September, 13.00-15.00, LUMC Collegezaal 1 </span>
       <span class="chev" aria-hidden="true">›</span>
     </button>
     <div class="chapters">
       <div class="chapter">
-        <p>How LLMs work, ways they can be used, and the main limitations and risks. Required for the 1.5 EC route.</p>
+        <p markdown="1"> This session provides a history of LLMs and a look 'under the hood', as well as insight in current developments, and guidance on practical use. **Bring your (LUMC) laptop!** </p>
       </div>
     </div>
   </div>
 
   <div class="part" data-part="1">
+    <button class="part-toggle" type="button" aria-expanded="false">
+      <span class="idx">00</span>
+      <span class="part-name">Introduction session 2</span>
+      <span class="meta">16 September, 12.00-14.00, LUMC Collegezaal 1 </span>
+      <span class="chev" aria-hidden="true">›</span>
+    </button>
+    <div class="chapters">
+      <div class="chapter">
+        <p markdown="1"> This session provides a history of LLMs and a look 'under the hood', as well as insight in current developments, and guidance on practical use. **Bring your (LUMC) laptop!** </p>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="part" data-part="2">
+    <button class="part-toggle" type="button" aria-expanded="false">
+      <span class="idx">00</span>
+      <span class="part-name">Introduction session 3</span>
+      <span class="meta">23 September, 13.00-15.00, LUMC Collegezaal 1</span>
+      <span class="chev" aria-hidden="true">›</span>
+    </button>
+    <div class="chapters">
+      <div class="chapter">
+        <p markdown="1"> This session provides a history of LLMs and a look 'under the hood', as well as insight in current developments, and guidance on practical use. **Bring your (LUMC) laptop!** </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="part" data-part="3">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">01</span>
       <span class="part-name">Literature searching and reviewing</span>
@@ -50,7 +78,7 @@ Theme sessions follow the research cycle. Each meeting mixes preparation, paired
     </div>
   </div>
 
-  <div class="part" data-part="2">
+  <div class="part" data-part="4">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">02</span>
       <span class="part-name">Research questions and study design</span>
@@ -64,7 +92,7 @@ Theme sessions follow the research cycle. Each meeting mixes preparation, paired
     </div>
   </div>
 
-  <div class="part" data-part="3">
+  <div class="part" data-part="5">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">03</span>
       <span class="part-name">Data collection and data management</span>
@@ -78,7 +106,7 @@ Theme sessions follow the research cycle. Each meeting mixes preparation, paired
     </div>
   </div>
 
-  <div class="part" data-part="4">
+  <div class="part" data-part="6">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">04</span>
       <span class="part-name">Data analysis and interpretation</span>
@@ -92,7 +120,7 @@ Theme sessions follow the research cycle. Each meeting mixes preparation, paired
     </div>
   </div>
 
-  <div class="part" data-part="5">
+  <div class="part" data-part="7">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">05</span>
       <span class="part-name">Scientific writing and communication</span>
@@ -106,7 +134,7 @@ Theme sessions follow the research cycle. Each meeting mixes preparation, paired
     </div>
   </div>
 
-  <div class="part" data-part="6">
+  <div class="part" data-part="8">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">06</span>
       <span class="part-name">Peer review and editorial tasks</span>
@@ -120,7 +148,7 @@ Theme sessions follow the research cycle. Each meeting mixes preparation, paired
     </div>
   </div>
 
-  <div class="part" data-part="7">
+  <div class="part" data-part="9">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">07</span>
       <span class="part-name">Grant applications and research proposals</span>
@@ -134,22 +162,3 @@ Theme sessions follow the research cycle. Each meeting mixes preparation, paired
     </div>
   </div>
 
-</div>
-
-## At a glance
-
-| Session | Topic | Date |
-| --- | --- | --- |
-| 00 | Introduction: how LLMs work | TBA |
-| 01 | Literature searching and reviewing | TBA |
-| 02 | Research questions and study design | TBA |
-| 03 | Data collection and data management | TBA |
-| 04 | Data analysis and interpretation | TBA |
-| 05 | Scientific writing and communication | TBA |
-| 06 | Peer review and editorial tasks | TBA |
-| 07 | Grant applications and research proposals | TBA |
-| — | Final assignment due | TBA |
-
-The 1.5 EC route requires the introduction plus at least five theme sessions, active participation, and a pass on the final assignment (55/100 and all four safety gates).
-
-</div>

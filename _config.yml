@@ -18,7 +18,7 @@ contact_phone: "66553"
 
 # Navigation order (Home is the site title, not a tab).
 header_pages:
-  - syllabus.md
+#  - syllabus.md
   - schedule.md
   - resources.md
   - about.md
@@ -39,5 +39,6 @@ exclude:
   - Gemfile.lock
   - vendor
   - course_outline.md
+  - EDITING.md
 
 author: Lodewijk Pet and Bram van Dijk
