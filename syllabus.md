@@ -6,157 +6,58 @@ permalink: /syllabus/
 
 <header class="post-header">
   <h1 class="post-title">Syllabus</h1>
-  <p class="page-intro">{{ site.credits }} · about 42 hours · counts towards the LUMC Epi-B programme. For the course story and teaching team, see <a href="{{ '/about/' | relative_url }}">About</a>.</p>
+  <p class="page-intro">Eight sessions over three months on using large language models in research.</p>
 </header>
 
-<div class="post-content">
+<div class="post-content" markdown="1">
 
-## What you will be able to do
+## Who it is for
 
-By the end of the course, participants will be able to:
+Research staff at any level and from any discipline. Prior experience with LLMs is not required.
 
-1. Explain in practical terms how large language models generate responses, what their strengths and limitations are, and why the same question can produce different answers.
-2. Decide whether an LLM is appropriate for a research task by considering data sensitivity, the human expertise required, and the potential risks.
-3. Choose an appropriate LLM environment, use it safely within institutional policies, and recognise when another approach is needed.
-4. Use an LLM as part of a structured research workflow, document how it was used, and keep the work understandable and reproducible for others.
-5. Critically evaluate AI-generated output for accuracy, completeness, reproducibility, privacy, confidentiality, bias, copyright, and ethical acceptability — then accept, revise, or reject it.
-6. Improve an AI-supported workflow through testing and feedback, communicate its limitations transparently, and take final responsibility for scientific decisions and outputs.
+## Study load
 
-## Study load and certificates
+The full route is about 42 hours, awards **1.5 EC**, and counts towards the LUMC Epi-B programme. To qualify you need to:
 
-The nominal completion route has a study load of about **42 hours**, awards **{{ site.credits }}**, and counts towards the **LUMC Epi-B** programme.
-
-To qualify, participants must:
-
-- complete one introductory session and at least five different theme sessions
-- participate actively and complete a short recovery task if required
-- pass the individual final assignment with at least **55/100** and **all four safety gates**
-
-Participants who meet the attendance requirements without passing the final assignment receive an **attendance-only certificate**. That certificate does not award EC and does not count towards Epi-B.
+- attend one introductory session and at least five different theme sessions;
+- take part actively, and complete a short recovery task if necessary; and
+- pass the individual final assignment with at least 55/100 and all four safety gates.
 
 <div class="callout">
-  <strong>Safety gates</strong>
-  The four safety gates for the final assignment will be specified on this page once they are finalised. Passing all of them is required for the 1.5 EC / Epi-B route.
+  <strong>Attendance only</strong>
+  If you meet the attendance requirements but do not pass the assignment, you receive an attendance certificate. It does not award EC and does not count towards Epi-B.
 </div>
+
+## Learning outcomes
+
+By the end of the course you should be able to:
+
+- explain how an LLM produces an answer, where it is strong or weak, and why the same question can get different answers;
+- recognise different ways of working with LLMs, including interactive use, reasoning, and deep research, and understand the opportunities and risks associated with them; 
+- decide whether an LLM fits a task, given the sensitivity of the data, the expertise the task needs, and the risks;
+- choose a suitable environment, stay within institutional rules, and change approach when an LLM is the wrong tool;
+- use an LLM in a research workflow and document that use so others can follow and reproduce the work;
+- check output for accuracy, completeness, reproducibility, privacy, confidentiality, bias, copyright, and ethics, and accept, revise, or reject it; and
+- test and adjust a workflow, state its limits clearly, and keep responsibility for the scientific decisions.
 
 ## Sessions
 
-The introductory session covers how LLMs work, how they can be used, and their main limitations and risks. The theme sessions follow the research cycle. Click a session for a short description.
+The introductory session covers how LLMs work, the main ways to use them, and their limits and risks.
 
-<div class="parts-accordion" id="sessions">
+The theme sessions each take one stage of the research cycle:
 
-  <div class="part" data-part="0">
-    <button class="part-toggle" type="button" aria-expanded="false">
-      <span class="idx">00</span>
-      <span class="part-name">Introduction: how LLMs work</span>
-      <span class="chev" aria-hidden="true">›</span>
-    </button>
-    <div class="chapters">
-      <div class="chapter">
-        <p>What a large language model is doing when it produces text, why answers can vary, and the main limitations and risks that follow for research. This session is required for the 1.5 EC route.</p>
-      </div>
-    </div>
-  </div>
+- literature searching and reviewing
+- data collection and data management
+- research questions and study design
+- data analysis and interpretation
+- scientific writing and communication
+- peer review and editorial tasks
+- grant applications and research proposals
 
-  <div class="part" data-part="1">
-    <button class="part-toggle" type="button" aria-expanded="false">
-      <span class="idx">01</span>
-      <span class="part-name">Literature searching and reviewing</span>
-      <span class="chev" aria-hidden="true">›</span>
-    </button>
-    <div class="chapters">
-      <div class="chapter">
-        <p>Using LLMs as assistants for finding, screening, and synthesising literature — without outsourcing judgement about what the evidence actually says.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="part" data-part="2">
-    <button class="part-toggle" type="button" aria-expanded="false">
-      <span class="idx">02</span>
-      <span class="part-name">Research questions and study design</span>
-      <span class="chev" aria-hidden="true">›</span>
-    </button>
-    <div class="chapters">
-      <div class="chapter">
-        <p>Where models can help you sharpen a question or sketch a design, and where they flatten nuance, invent methods, or drift away from your field.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="part" data-part="3">
-    <button class="part-toggle" type="button" aria-expanded="false">
-      <span class="idx">03</span>
-      <span class="part-name">Data collection and data management</span>
-      <span class="chev" aria-hidden="true">›</span>
-    </button>
-    <div class="chapters">
-      <div class="chapter">
-        <p>Privacy, confidentiality, and institutional rules when data might enter a chat window. When a local or approved environment is required, and when an LLM should not be used at all.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="part" data-part="4">
-    <button class="part-toggle" type="button" aria-expanded="false">
-      <span class="idx">04</span>
-      <span class="part-name">Data analysis and interpretation</span>
-      <span class="chev" aria-hidden="true">›</span>
-    </button>
-    <div class="chapters">
-      <div class="chapter">
-        <p>Using models to draft code, suggest analyses, or help interpret output — while keeping statistical reasoning, domain knowledge, and error-checking with the researcher.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="part" data-part="5">
-    <button class="part-toggle" type="button" aria-expanded="false">
-      <span class="idx">05</span>
-      <span class="part-name">Scientific writing and communication</span>
-      <span class="chev" aria-hidden="true">›</span>
-    </button>
-    <div class="chapters">
-      <div class="chapter">
-        <p>Drafting, editing, and explaining results with LLM support. Authorship, originality, citation of sources, and being honest about what the model contributed.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="part" data-part="6">
-    <button class="part-toggle" type="button" aria-expanded="false">
-      <span class="idx">06</span>
-      <span class="part-name">Peer review and editorial tasks</span>
-      <span class="chev" aria-hidden="true">›</span>
-    </button>
-    <div class="chapters">
-      <div class="chapter">
-        <p>Confidentiality of unpublished manuscripts, the limits of automated critique, and how to keep review quality under human control.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="part" data-part="7">
-    <button class="part-toggle" type="button" aria-expanded="false">
-      <span class="idx">07</span>
-      <span class="part-name">Grant applications and research proposals</span>
-      <span class="chev" aria-hidden="true">›</span>
-    </button>
-    <div class="chapters">
-      <div class="chapter">
-        <p>Where LLMs can help structure or edit a proposal, and how to avoid generic, untraceable, or overconfident claims in high-stakes writing.</p>
-      </div>
-    </div>
-  </div>
-
-</div>
+Each session mixes preparation, a conversation with one other participant, group discussion, exercises, and a short reflection. You practise the same things throughout: use a model for a clear purpose, check what it returns, write down what you did, and stay responsible for the scientific judgement.
 
 ## Final assignment
 
-The course concludes with an individual assignment: create or improve a scientific product using an LLM-supported workflow. You will critically evaluate the process and outcome, reflect on benefits and limitations, and formulate practical standards for responsible use in your own work.
-
-A score of at least **55/100** and passing **all four safety gates** are required for the 1.5 EC and Epi-B completion route.
-
-See the <a href="{{ '/schedule/' | relative_url }}">Schedule</a> for session timing (dates to be announced).
+You create or improve a scientific product with an LLM-supported workflow, assess the process and the result, and set practical standards for your own use. For the 1.5 EC and Epi-B route you need at least 55/100 and a pass on all four safety gates.
 
 </div>

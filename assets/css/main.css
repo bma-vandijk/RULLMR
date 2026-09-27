@@ -15,9 +15,6 @@
   --coral-soft: #fdeee8;
   --line: #e2eaf2;
   --shadow: 0 8px 24px rgba(43, 90, 134, 0.06);
-  --warn-bg: #fff6db;
-  --warn-ink: #6b4e00;
-  --warn-line: #f0d48a;
   --radius: 12px;
   --serif: "Source Serif 4", "Iowan Old Style", Georgia, serif;
   --sans: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
@@ -50,9 +47,6 @@ html[data-theme="dark"] {
   --coral-soft: #3a2c28;
   --line: #2c3642;
   --shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
-  --warn-bg: #3a3118;
-  --warn-ink: #f5e3a8;
-  --warn-line: #6b5a28;
   color-scheme: dark;
 }
 
@@ -137,33 +131,12 @@ h4 {
   width: min(var(--wide), calc(100% - 2.4rem));
 }
 
-/* ---- Construction banner + header ----------------------------------------- */
+/* ---- Header ---------------------------------------------------------------- */
 
 .site-chrome {
   position: sticky;
   top: 0;
   z-index: 10;
-}
-
-.construction-banner {
-  background: var(--warn-bg);
-  color: var(--warn-ink);
-  border-bottom: 1px solid var(--warn-line);
-  padding: 0.85rem 0;
-  font-size: 1rem;
-  line-height: 1.45;
-}
-
-.construction-banner p {
-  margin: 0;
-}
-
-.construction-banner strong {
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-size: 0.82rem;
-  display: inline-block;
-  margin-right: 0.45rem;
 }
 
 .site-header {
@@ -390,6 +363,7 @@ html[data-theme="dark"] .icon-moon {
 .post-content h2 {
   font-size: 1.35rem;
   margin-top: 2.2rem;
+  scroll-margin-top: 8.5rem;
 }
 
 .post-content h3 {
@@ -713,6 +687,21 @@ html[data-theme="dark"] .cta:hover {
   margin-bottom: 0;
 }
 
+.chapter .file-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.85rem 0 0;
+}
+
+.chapter .file-list li+li {
+  margin-top: 0.65rem;
+}
+
+.chapter .download-name,
+.chapter .download-meta {
+  display: block;
+}
+
 /* ---- Footer ---------------------------------------------------------------- */
 
 .site-footer {
@@ -724,9 +713,17 @@ html[data-theme="dark"] .cta:hover {
 
 .footer-inner {
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  display: block;
+  height: 4.5rem;
+  width: auto;
+  max-width: 100%;
+  background: #fff;
+  border-radius: 8px;
 }
 
 .footer-title {

@@ -18,9 +18,8 @@ contact_phone: "66553"
 
 # Navigation order (Home is the site title, not a tab).
 header_pages:
-#  - syllabus.md
+  - syllabus.md
   - schedule.md
-  - resources.md
   - about.md
 
 permalink: pretty
