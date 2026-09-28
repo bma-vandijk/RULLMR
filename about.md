@@ -14,7 +14,7 @@ permalink: /about/
   <article class="person">
     <h3>Lodewijk Pet</h3>
     <p class="role">Division 6, Clinical Epidemiology · LUMC</p>
-    <p class="bio">TBA.</p>
+    <p class="bio">I am an PhD candidate in the Department of Clinical Epidemiology at Leiden University Medical Center. My work focuses on research integrity in biomedical science and the responsible use of large language models in research. I try to implement LLMs in every part of research to identify benefits and problems.</p>
     <p>
       Email: <a href="mailto:l.a.pet@lumc.nl">l.a.pet@lumc.nl</a><br>
       Telephone: 66553
