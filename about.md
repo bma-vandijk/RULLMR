@@ -24,7 +24,7 @@ permalink: /about/
   <article class="person">
     <h3>Bram van Dijk</h3>
     <p class="role">Postdoctoral researcher @ Caecilia Institute of Population Health and Data Sciences · LUMC</p>
-    <p class="bio">I obtained my PhD from the Leiden Institute of Advanced Computer Science on modelling Theory of Mind with tools from computational linguistics, including language models. Since then my research focus has been to try to put them to use in clinical contexts. </p>
+    <p class="bio">I obtained my PhD from the Leiden Institute of Advanced Computer Science on modelling Theory of Mind with tools from computational linguistics, including language models. Since then my research focus has been on employing language models in clinical settings. </p>
     <p>
       Email: <a href="mailto:b.m.a.van.dijk@liacs.leidenuniv.nl">b.m.a.van.dijk@liacs.leidenuniv.nl</a>
     </p>

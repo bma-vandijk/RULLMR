@@ -713,8 +713,11 @@ html[data-theme="dark"] .cta:hover {
 
 .footer-inner {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0.85rem;
+  text-align: center;
 }
 
 .footer-logo {
