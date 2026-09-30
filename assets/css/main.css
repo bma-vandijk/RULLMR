@@ -466,15 +466,13 @@ th {
   text-decoration: underline;
 }
 
-@media (max-width: 80px) {
+@media (max-width: 800px) {
   .landing-hero {
     grid-template-columns: 1fr;
   }
 
   .landing-figure {
     position: static;
-    max-width: 18rem;
-    justify-self: start;
   }
 }
 
