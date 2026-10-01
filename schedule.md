@@ -92,8 +92,13 @@ wide: true
     </button>
     <div class="chapters">
       <div class="chapter">
-        <p markdown="1"> Plan searches, compare search strategies and verify references/claims against primary sources.
-        </p>
+        <p markdown="1"> Plan searches, compare search strategies and verify references/claims against primary sources.</p>
+        <ul class="file-list">
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/01-literature/homework_session_lit_search.pdf' | relative_url }}">Homework</a>
+            <span class="download-meta">PDF</span>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
