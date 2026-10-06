@@ -98,6 +98,14 @@ wide: true
             <a class="download-name" href="{{ '/assets/practicals/01-literature/homework_session_lit_search.pdf' | relative_url }}">Homework</a>
             <span class="download-meta">PDF</span>
           </li>
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/01-literature/llm_settings_environment.zip' | relative_url }}">LLM Settings Environment</a>
+            <span class="download-meta">ZIP</span>
+          </li>
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/01-literature/LUMC_GenAI_policy_v1.0_ENG.pdf' | relative_url }}">GenAI policy (ENG)</a>
+            <span class="download-meta">PDF</span>
+          </li>
         </ul>
       </div>
     </div>
