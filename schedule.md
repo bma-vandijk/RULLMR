@@ -106,26 +106,16 @@ wide: true
             <a class="download-name" href="{{ '/assets/practicals/01-literature/LUMC_GenAI_policy_v1.0_ENG.pdf' | relative_url }}">GenAI policy (ENG)</a>
             <span class="download-meta">PDF</span>
           </li>
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/01-literature/Literature_search_RULLMR_slides.pdf' | relative_url }}">Slides</a>
+            <span class="download-meta">PDF</span>
+          </li>
         </ul>
       </div>
     </div>
   </div>
 
   <div class="part" data-part="4">
-    <button class="part-toggle" type="button" aria-expanded="false">
-      <span class="idx">02</span>
-      <span class="part-name">Research questions and study design</span>
-      <span class="meta">21 October, 13.00-15.00, Group 1: V-02-018; Group 2: V-02-022</span>
-      <span class="chev" aria-hidden="true">›</span>
-    </button>
-    <div class="chapters">
-      <div class="chapter">
-        <p markdown ="1"> Make questions and design explicit; analyse bias mechanisms; test LLM suggestions against epidemiological principles.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="part" data-part="5">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">03</span>
       <span class="part-name">Data collection and data management</span>
@@ -135,6 +125,20 @@ wide: true
     <div class="chapters">
       <div class="chapter">
         <p> Build a codebook, design information extraction and validate against a human reference.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="part" data-part="5">
+    <button class="part-toggle" type="button" aria-expanded="false">
+      <span class="idx">02</span>
+      <span class="part-name">Research questions and study design</span>
+      <span class="meta">21 October, 13.00-15.00, Group 1: V-02-018; Group 2: V-02-022</span>
+      <span class="chev" aria-hidden="true">›</span>
+    </button>
+    <div class="chapters">
+      <div class="chapter">
+        <p markdown ="1"> Make questions and design explicit; analyse bias mechanisms; test LLM suggestions against epidemiological principles.</p>
       </div>
     </div>
   </div>
