@@ -119,7 +119,7 @@ wide: true
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">03</span>
       <span class="part-name">Data collection and data management</span>
-      <span class="meta">26 October, 13.00-15.00, Group 1: V-02-022; Group 2: V-02-046</span>
+      <span class="meta">21 October, 13.00-15.00, Group 1: V-02-018; Group 2: V-02-022</span>
       <span class="chev" aria-hidden="true">›</span>
     </button>
     <div class="chapters">
@@ -133,7 +133,7 @@ wide: true
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">02</span>
       <span class="part-name">Research questions and study design</span>
-      <span class="meta">21 October, 13.00-15.00, Group 1: V-02-018; Group 2: V-02-022</span>
+      <span class="meta">26 October, 13.00-15.00, Group 1: V-02-022; Group 2: V-02-046</span>
       <span class="chev" aria-hidden="true">›</span>
     </button>
     <div class="chapters">
