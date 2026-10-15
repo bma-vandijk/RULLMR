@@ -1,0 +1,74 @@
+patient_id,appointment_date,birth_date,age,referral_reason,gender,ethnicity,insurer
+PT-10482,04/02/2026,03/14/1968,58,HTN f/u,M,White,BCBS
+pt-10482,2 Apr 2026,14-03-1968,58 years,hypertension follow-up,Male,Caucasian,Blue Cross Blue Shield
+PT10482,2026/04/02,1968-03-14 00:00:00,57,htn follow up,m,white,Blue Cross
+PT 10482,04-02-2026,March 14 1968,58yo,high blood pressure,Man,W,BC/BS
+PT-11017,10/08/2026,07/22/1992,34,sore throat,F,Hispanic,Aetna
+PT 11017,08-10-2026,22/07/1992,34,pharyngitis?,female,Latina,aetna
+pt11017,October 8 2026,22 July 1992,34 years,throat pain x 5 days,f,Hispanic/Latino,AETNA
+PT-10855,2026-02-11,January 9 1955,71,DM2 check,F,Black,Medicare
+10855,11 Feb 2026,09.01.1955,71 y/o,diabetes f/u,Female,African American,medicare part B
+PT-10855,02/11/26,1/9/55,71,DM follow-up,2,Black or African American,CMS Medicare
+PT-11203,15-Nov-2025,11/02/1984,41,R knee pain,Male,White,UnitedHealthcare
+pt11203,1/20/26,November 2 1984,42,rt knee pain x 6 wks,M,white,UHC
+PT-11203,20 Jan 2026,02-11-1984,42 yrs,right knee,male,Caucasian,United Healthcare
+PT-10941,4 Jun 2026,05/19/2020,6,ear pain,M,Asian,Medicaid
+PT-10941,06/04/2026,19 May 2020,6yo,AOM right ear,male,asian,medicaid
+pt-10941,2026-06-04,2020/05/19,5,right ear pain,M ,Asian,State Medicaid
+PT-11590,2026-01-28,02/28/1963,63,cough and SOB,F,White,Cigna
+PT-11590,28/01/2026,28-Feb-1963,62,dyspnea on exertion,Woman,Caucasian,CIGNA
+PT-11590,Jan 28 2026,1963-02-28,63,cough/SOB,female,white,cigna
+PT-10726,Sep 18 2026,1997-09-01,29,migraine follow up,F,White,BCBS of IL
+pt-10726,18/09/2026,01-Sep-1997,29 years old,migraines,female,Not Hispanic,BlueCross
+PT-10726,2026-09-18,09/01/97,29,HA f/u,F ,Caucasian,Blue Cross
+PT-11374,2026-03-03,06/11/1945,81,confusion worse x 2 days,M,Black,Medicare
+PT-11374,3/3/2026,June 11 1945,80,altered mental status,Male,Black or African American,CMS Medicare
+PT-10618,04/30/2026,1981-04-30,45,annual exam,F,Asian,Kaiser
+PT-10618,30-04-2026,30 Apr 1981,45,AWV,Female,Chinese,Kaiser Permanente
+PT-10618,April 30 2026,04/30/81,forty-five,physical,f,asian,KP
+PT-11452,9/14/26,08-16-2007,19,ankle sprain,M,Hispanic or Latino,Self-pay
+11452,14 September 2026,16.08.2007,19,rt ankle injury soccer,male,Latino,selfpay
+PT-11452,2026-09-14,August 16 2007,18,ankle pain,M,H/L,Self Pay
+PT-11108,2026-02-20,2/11/1974,52,GERD,M,White,Humana
+PT-11108,20 Feb 2026,11-02-1974,52,heartburn,mail,caucasian,HUMANA
+PT-11733,10/09/2026,10/03/1959,67,hypothyroid f/u,F,White,Aetna
+PT-11733,09-10-2026,03 Oct 1959,67,thyroid labs,female,white ,AETNA
+PT-10590,2026-04-16,03/08/2023,3,ear pulling / cough,F,Black,Medicaid
+pt-10590,16 Apr 2026,8 March 2023,3 years,AOM,femal,African-American,State Medicaid
+PT-11821,01/06/2026,08/21/1950,75,CHF follow-up,M,White,Medicare
+PT-11821,6 January 2026,August 21 1950,75,congestive heart failure,Male,caucasian,medicare
+PT-11821,2026/08/25,21-08-1950,76,weight gain SOB,Male,Caucasian,Medicare Part B
+PT-11821,25 Aug 2026,1950-08-21,76 yrs,CHF,m,white,medicare
+PT-10987,2026-05-07,01/17/1988,38,anxiety and insomnia,F,Middle Eastern,United Healthcare
+PT-10987,7 May 2026,17.01.1988,38,GAD / sleep,Woman,MENA,Unitd Healthcare
+PT-11644,6/2/2026,May 25 1971,55,low back pain,1,White,BC/BS
+PT-11644,02-06-2026,25/05/1971,55,LBP after lifting,male,W,Blu Cross
+PT-10276,2026-07-14,06/30/2002,24,dysuria,F,Hispanic,Cigna
+PT-10276,14/07/2026,30-Jun-2002,24yo,UTI symptoms,f,Latina,cigna
+PT-12015,11/20/2026,04/02/1957,69,skin lesion left forearm,F,White,Medicare
+PT-12015,20 Nov 2026,2 April 1957,68,possible BCC,Female,white,Medicare Part B
+pt 10803,2026-03-19,1979-04-02,46,prediabetes counseling,M,Asian,Aetna
+PT-10803,May 1 2026,02/04/1979,47,A1c / weight,Male,asian,aetna inc
+PT-11309,02/19/2026,02/19/2012,14,acne,F,White,BCBS
+PT-11309,19-02-2026,2012/02/19,13,acne follow up,female,Caucasian,BlueCross Blue Shield
+PT-11956,7/7/2026,07-07-1966,60,atrial fibrillation,M,Black,Humana
+PT-11956,July 7 2026,1966.07.07,60,afib rate control,Male,African American,humana
+PT-10411,09/23/2026,2018-09-23,8,well child,M,Multiracial,Medicaid
+PT-10411,23 Sept 2026,23/09/2018,8 years,WCC,male,Two or more races,medicaid
+PT-12140,2026-10-01,01/28/1953,73,dizziness on standing,F,White,Medicare
+PT-12140,1 Oct 2026,28 Jan 1953,73,orthostatic symptoms,Female,Declined,medicare
+PT-10788,2026-06-12,May 12 1995,31,prenatal visit 18 weeks,F,Hispanic,Kaiser
+PT-10788,12-06-2026,12/05/1995,31,OB check,female,Hispanic/Latino,KP
+PT-11502,03/01/2026,03/01/1960,66,COPD f/u,M,White,BCBS
+PT-11502,1 March 2026,1960-03-01,66,copd / still smoking,male,white,Blue Cross
+PT-11502,20260301,01 Mar 60,66,COPD exacerbation?,M,Caucasian,bcbs
+PT-12200,2026-08-04,1990-11-30,35,anxiety intake,Non-binary,White,Aetna
+pt12200,4 Aug 2026,30/11/1990,35,anxiety,NB,white,aetna
+PT-12200,08/04/26,Nov 30 1990,36,f/u anxiety,X,Caucasian,AETNA
+PT-12288,2026-09-02,,,referral not documented,U,Unknown,
+PT-12288,2 September 2026,N/A,unknown,?,Unknown,Patient declined,n/a
+PT-12288,09/02/2026,NULL,.,not listed,Prefer not to say,declined,None
+PT-13001,13/13/2026,1985-02-30,40,back pain,Male,Hispanic,United
+PT-13002,2026-04-00,00/00/1970,56,annual,F,Asian,-
+,2026-05-01,1972-01-01,54,knee pain,M,White,Cigna
+PT-13003,yesterday,04/04/1980,46,cough,f,black,medicaid
