@@ -34,7 +34,7 @@ wide: true
         <p markdown="1"> This session provides a history of LLMs and a look 'under the hood', as well as insight in current developments, and guidance on practical use. **Bring your (LUMC) laptop!** </p>
         <ul class="file-list">
           <li>
-            <a class="download-name" href="{{ '/assets/practicals/00-introduction/01_Introduction_RULLMR-1.pdf' | relative_url }}">Introduction slides</a>
+            <a class="download-name" href="{{ '/assets/practicals/01-introduction/01_Introduction_RULLMR-1.pdf' | relative_url }}">Slides</a>
             <span class="download-meta">PDF</span>
           </li>
         </ul>
@@ -54,7 +54,7 @@ wide: true
         <p markdown="1"> This session provides a history of LLMs and a look 'under the hood', as well as insight in current developments, and guidance on practical use. **Bring your (LUMC) laptop!** </p>
         <ul class="file-list">
           <li>
-            <a class="download-name" href="{{ '/assets/practicals/00-introduction/01_Introduction_RULLMR-1.pdf' | relative_url }}">Introduction slides</a>
+            <a class="download-name" href="{{ '/assets/practicals/01-introduction/01_Introduction_RULLMR-1.pdf' | relative_url }}">Slides</a>
             <span class="download-meta">PDF</span>
           </li>
         </ul>
@@ -75,7 +75,7 @@ wide: true
         <p markdown="1"> This session provides a history of LLMs and a look 'under the hood', as well as insight in current developments, and guidance on practical use. **Bring your (LUMC) laptop!** </p>
         <ul class="file-list">
           <li>
-            <a class="download-name" href="{{ '/assets/practicals/00-introduction/01_Introduction_RULLMR-1.pdf' | relative_url }}">Introduction slides</a>
+            <a class="download-name" href="{{ '/assets/practicals/01-introduction/01_Introduction_RULLMR-1.pdf' | relative_url }}">Slides</a>
             <span class="download-meta">PDF</span>
           </li>
         </ul>
@@ -95,19 +95,19 @@ wide: true
         <p markdown="1"> Plan exploratory deep literature searches, compare and evaluate different LLMs and search strategies.</p>
         <ul class="file-list">
           <li>
-            <a class="download-name" href="{{ '/assets/practicals/01-literature/homework_session_lit_search.pdf' | relative_url }}">Homework</a>
+            <a class="download-name" href="{{ '/assets/practicals/02-literature/homework_session_lit_search.pdf' | relative_url }}">Homework</a>
             <span class="download-meta">PDF</span>
           </li>
           <li>
-            <a class="download-name" href="{{ '/assets/practicals/01-literature/llm_settings_environment.zip' | relative_url }}">LLM Settings Environment</a>
+            <a class="download-name" href="{{ '/assets/practicals/02-literature/llm_settings_environment.zip' | relative_url }}">LLM Settings Environment</a>
             <span class="download-meta">ZIP</span>
           </li>
           <li>
-            <a class="download-name" href="{{ '/assets/practicals/01-literature/LUMC_GenAI_policy_v1.0_ENG.pdf' | relative_url }}">GenAI policy (ENG)</a>
+            <a class="download-name" href="{{ '/assets/practicals/02-literature/LUMC_GenAI_policy_v1.0_ENG.pdf' | relative_url }}">GenAI policy (ENG)</a>
             <span class="download-meta">PDF</span>
           </li>
           <li>
-            <a class="download-name" href="{{ '/assets/practicals/01-literature/Literature_search_RULLMR_slides.pdf' | relative_url }}">Slides</a>
+            <a class="download-name" href="{{ '/assets/practicals/02-literature/Literature_search_RULLMR_slides.pdf' | relative_url }}">Slides</a>
             <span class="download-meta">PDF</span>
           </li>
         </ul>
@@ -124,7 +124,7 @@ wide: true
     </button>
     <div class="chapters">
       <div class="chapter">
-        <p> Learn to use LLMs in various environments to support basic data preprocessing and extraction tasks.</p>
+        <p markdown="1"> Learn to use LLMs in cloud and local environments to support basic data preprocessing and extraction tasks.</p>
         <ul class="file-list">
           <li>
             <a class="download-name" href="{{ '/assets/practicals/03-data-collection/03_data_collection_homework.pdf' | relative_url }}">Homework</a>
@@ -137,6 +137,10 @@ wide: true
           <li>
             <a class="download-name" href="{{ '/assets/practicals/03-data-collection/reports_homework_10.csv' | relative_url }}">ED notes for Task 2</a>
             <span class="download-meta">CSV</span>
+          </li>
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/03-data-collection/03_data_collection_homework.pdf' | relative_url }}">Slides</a>
+            <span class="download-meta">PDF</span>
           </li>
         </ul>
       </div>
@@ -152,7 +156,13 @@ wide: true
     </button>
     <div class="chapters">
       <div class="chapter">
-        <p markdown ="1"> </p>
+        <p markdown ="1"> Use local and cloud LLMs to analyse existing work and design follow-up work </p>
+       <ul class="file-list">
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/04-design/study_design_homework.pdf' | relative_url }}">Homework</a>
+            <span class="download-meta">PDF</span>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
