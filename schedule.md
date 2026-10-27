@@ -162,6 +162,10 @@ wide: true
             <a class="download-name" href="{{ '/assets/practicals/04-design/study_design_homework.pdf' | relative_url }}">Homework</a>
             <span class="download-meta">PDF</span>
           </li>
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/04-design/study_design_RULLMR.pdf' | relative_url }}">Slides</a>
+            <span class="download-meta">PDF</span>
+          </li>
         </ul>
       </div>
     </div>
