@@ -6,8 +6,8 @@ wide: true
 ---
 
 <header class="post-header">
-  <h1 class="post-title">LUMC LLM Community</h1>
-  <p class="page-intro community-intro">Join the LUMC LLM community (LLMcom) and stay up to date regarding all things related to LLMs in LUMC research!</p>
+  <h1 class="post-title"></h1>
+  <p class="page-intro community-intro">Join LLMcom to stay up to date regarding all things LLM in LUMC research!</p>
 </header>
 
 <figure class="community-figure">
