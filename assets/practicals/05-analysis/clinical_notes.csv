@@ -1,0 +1,821 @@
+note_id,note_date,note_type,note_text
+N001,2025-12-22,Outpatient note - diabetes,"DIABETES CLINIC REVIEW
+65-year-old woman with type 2 diabetes diagnosed 2011.
+HbA1c 70 mmol/mol (previous 72). Weight 107 kg.
+Medication: Metformin 1 g BD, empagliflozin 10 mg, atorvastatin 20 mg.
+Complications screen: Retinal screening background retinopathy. Monofilament sensation intact. uACR 1.2 mg/mmol.
+Social: Married, works part-time. Independent. Has never smoked. Alcohol: ~4 units/week.
+BP 146/77.
+Plan: Increase gliclazide. Recheck HbA1c in 3 months."
+N002,2025-08-19,GP consultation,"GP CONSULTATION
+32-year-old woman with 10-day history of productive cough, green sputum, mild fever. No haemoptysis, no weight loss. Some wheeze at night.
+PMH: Type 2 diabetes (diet-controlled).
+Meds: Nil regular.
+SH: Lives with husband, works as a software developer. Pack-years: 10 (stopped 2022). Alcohol: 1-2 glasses of wine at weekends.
+O: T 37.7, RR 17, SpO2 95% RA, HR 86. Scattered coarse crackles R base, no bronchial breathing.
+A: Lower respiratory tract infection, CRB-65 score 0.
+P: Amoxicillin 500 mg TDS 5 days. Safety-netting advice given. Return if worsening or not improved in 3 days."
+N003,2026-01-19,Outpatient note - gastroenterology,"GASTROENTEROLOGY CLINIC
+74-year-old woman with 8 months of epigastric burning and acid reflux, worse after meals and lying flat. No dysphagia, vomiting, GI bleeding or weight loss.
+OGD (last month): LA grade B oesophagitis, small hiatus hernia.
+Meds: Omeprazole 20 mg OD, ibuprofen 400 mg prn for back pain.
+Social: Lives with husband in a bungalow, independent with ADLs. Pack-years: 5 (stopped 2016). Alcohol: nil.
+Plan: Lifestyle advice: weight loss, raise head of bed, avoid late meals. Review 3 months."
+N004,2025-03-10,Outpatient note - psychiatry,"PSYCHIATRY OUTPATIENT ASSESSMENT
+42-year-old man referred by GP with low mood for 4 months, anhedonia, early-morning waking and poor concentration. PHQ-9 20. No psychotic features. Passive thoughts of death, no active plans or intent.
+Past psychiatric history: One previous depressive episode 2016.
+Medication: Citalopram 20 mg for 3 months, minimal response.
+Personal/social: Lives with wife. Works as a farmer. Wife smokes in the garden. Alcohol: ~20 units/week, advised to reduce.
+Risk: Low-moderate; protective factors - family, employment.
+Plan: Switch to mirtazapine 15 mg nocte. Refer psychological therapies. Review 4 weeks. Crisis numbers given."
+N005,2025-07-16,Discharge summary,"DISCHARGE SUMMARY - General Medicine
+Patient: Mrs X, 65 y. Length of stay: 5 days.
+Diagnosis: Community-acquired pneumonia, right lower lobe (CURB-65 = 1).
+History: Admitted with 4 days of fever, rigors, productive cough and pleuritic chest pain. CXR: RLL consolidation. CRP 165 on admission.
+Course: Treated with IV co-amoxiclav and oral clarithromycin, switched to oral on day 3. Brief AKI (creat peak 156), resolved with IV fluids. Mobilising independently at discharge.
+Background: T2DM, CKD stage 3a.
+Social: Married, works part-time. Independent. Ex-smoker, quit in 2005. Teetotal.
+Discharge meds: Co-amoxiclav 625 mg TDS to complete 7 days total; regular meds unchanged.
+Follow-up: GP review 1 week; repeat CXR in 6 weeks."
+N006,2025-11-30,Outpatient note - lung nodule clinic,"LUNG NODULE CLINIC
+62-year-old man with an incidental 7 mm solid nodule in the right upper lobe on CT performed for trauma.
+Brock risk score: 11%.
+Symptoms: No cough, haemoptysis or weight loss.
+Background: Nil.
+SH: Divorced, lives alone. Unemployed since 2023. Alcohol: occasional.
+FH: Father: MI aged 70.
+Plan: PET-CT. Nicotine patches prescribed to support a quit attempt starting next week."
+N007,2025-07-08,Outpatient letter - respiratory,"RESPIRATORY CLINIC LETTER
+Dear colleague,
+I reviewed this 79-year-old man with COPD (GOLD 2) in clinic today. He reports three exacerbations requiring oral steroids in the past year and MRC dyspnoea grade 3.
+Spirometry: FEV1 68% predicted, FEV1/FVC 0.58.
+Current inhalers: Tiotropium/olodaterol, salbutamol prn. Inhaler technique reviewed and adequate.
+Social: Lives in sheltered accommodation, mobilises with a stick. Alcohol: 10-14 units/week.
+Plan: Refer pulmonary rehabilitation. Influenza and pneumococcal vaccination up to date. Rescue pack provided. Review 6 months.
+Kind regards,
+Respiratory Physician"
+N008,2026-02-15,GP consultation,"GP CONSULTATION - hypertension review
+Mrs X, 47 y.
+S: Attends for BP review. Home readings average 157/87. No headaches, chest pain or visual disturbance. Taking amlodipine 5 mg OD, occasionally forgets.
+PMH: Hypertension (2019), hypercholesterolaemia.
+SH: Married, works part-time. Independent. Alcohol: ~20 units/week, advised to reduce. Has never touched a cigarette.
+FH: Father: stroke aged 78.
+O: BP 165/91 (repeat 161/89), HR 87 reg. BMI 34. Heart sounds normal, no oedema.
+Bloods (last month): creat 83 umol/L, eGFR >60, K 4.4, total chol 5.3.
+A: Hypertension, suboptimally controlled.
+P: Increase amlodipine to 10 mg. Lifestyle advice (salt, exercise). Review 4 weeks with home BP diary."
+N009,2026-04-18,Antenatal booking,"ANTENATAL BOOKING VISIT
+21-year-old G3P2, 11+6 weeks by dates. Dating scan booked.
+Obstetric history: Nil (primigravida).
+Medical history: Previous depression, currently well.
+Medication: Folic acid 400 mcg.
+Social: Lives alone, works full-time in logistics. No alcohol in pregnancy.
+Booking bloods: FBC, blood group and antibodies, HIV/hepatitis B/syphilis screen sent. BP 104/64, BMI 20.
+Plan: Routine midwife-led care. Advised re vitamin D. Next appointment at 16 weeks. Brief advice given on cutting down roll-ups."
+N010,2025-03-27,Outpatient note - dermatology,"DERMATOLOGY CLINIC
+66 y man with hidradenitis suppurativa for 11 years.
+Current: Recurrent nodules both axillae, Hurley stage II.
+Treatment to date: Doxycycline courses, chlorhexidine wash.
+Other history: Obesity.
+Social: Lives with wife. Works as an engineer. Alcohol: 1-2 glasses of wine at weekends.
+Plan: Refer for consideration of adalimumab. Review 3 months."
+N011,2026-04-14,Outpatient note - vascular surgery,"VASCULAR SURGERY CLINIC
+66-year-old man referred with right calf claudication at ~50 m. No rest pain or tissue loss.
+PMH: Hypertension, T2DM.
+Social: Lives with wife. Works as a lorry driver. Alcohol: ~4 units/week. Smokes 12 cigarettes per day, not interested in stopping.
+Exam: Absent popliteal and pedal pulses on affected side. ABPI 0.68. Feet warm, no ulceration.
+Duplex: Multilevel stenoses, SFA and popliteal.
+Plan: Best medical therapy - clopidogrel 75 mg, atorvastatin 80 mg. Supervised exercise programme. Review 3 months; consider angioplasty if lifestyle-limiting."
+N012,2026-02-23,Pre-operative assessment,"PRE-OPERATIVE ASSESSMENT
+Planned procedure: Elective total hip replacement (R).
+Patient: 80 y woman. ASA 2.
+PMH: Osteoarthritis, hypothyroidism.
+Anaesthetic history: No previous anaesthetics.
+Airway: Mallampati 1, good mouth opening, full neck movement.
+Functional capacity: >4 METs, climbs 2 flights of stairs.
+Social history: Widowed, lives alone. Daughter visits daily. Alcohol: occasional. Lifelong non-smoker.
+Investigations: Hb 127 g/L, creat 62, eGFR >60. ECG sinus rhythm. MRSA screen negative.
+Plan: Fit for surgery. Stop ibuprofen 5 days pre-op. Continue regular medication on the morning of surgery."
+N013,2025-07-18,Outpatient note - rheumatology,"RHEUMATOLOGY CLINIC
+74 y woman with seropositive rheumatoid arthritis (RF+, anti-CCP+) diagnosed 2023.
+Current: 9 swollen and 10 tender joints, morning stiffness 1-2 h. DAS28-CRP 5.1.
+Treatment: Methotrexate 15 mg weekly SC, folic acid.
+Comorbidities: Osteoporosis.
+Social: Widowed, lives alone. Daughter visits daily. Smoker, 5 cigarettes/day. Alcohol: ~4 units/week.
+Bloods: CRP 13, ALT 21, eGFR >60.
+Plan: Add hydroxychloroquine. If inadequate response at 3 months, consider biologic. Vaccinations reviewed."
+N014,2025-09-30,Emergency department note,"EMERGENCY DEPARTMENT - Minor injuries
+51 y woman. Inversion injury to left ankle stepping off a kerb today. Able to weight-bear 4 steps only.
+PMH: Hypertension. Meds: Nil.
+SH: Divorced, lives alone. Unemployed since 2019. Teetotal.
+O/E: Swelling and bruising lateral malleolus. Tender ATFL, no bony tenderness posterior edge of malleoli or base of 5th MT. Ottawa rules negative.
+Imp: Lateral ligament sprain.
+Plan: No X-ray. Analgesia, RICE, early mobilisation. Physio leaflet given. Stop-smoking advice not applicable - has never used tobacco or e-cigarettes."
+N015,2026-03-20,Outpatient note - ophthalmology,"OPHTHALMOLOGY CLINIC
+74 y woman. Gradual blurring of vision in both eyes, right worse over 12 months, glare when driving at night.
+VA: R 6/18, L 6/12. IOP R 19 L 14 mmHg.
+Anterior segment: Nuclear sclerotic cataract 2+. Fundi: healthy discs, macula flat.
+General health: Hypertension, on amlodipine.
+Social: Widowed, lives alone. Daughter visits daily. Alcohol: occasional. Stopped smoking 3 months ago.
+Plan: List for phacoemulsification + IOL, right eye. Biometry today. Consent discussed."
+N016,2025-01-26,Emergency department note,"EMERGENCY DEPARTMENT NOTE
+PC: Central chest pain, onset 4 h prior to arrival, pressure-like, radiating to both arms. Associated sweating and nausea.
+PMH: No significant history.
+DH: Nil. NKDA.
+SH: Divorced, lives alone. Unemployed since 2021. Alcohol: 10-14 units/week. Denies smoking or vaping.
+FH: Mother: hypertension.
+O/E: HR 100, BP 166/92, SpO2 98%. HS I+II+0. Chest clear.
+ECG: Sinus rhythm, no acute ST changes.
+hs-troponin T: 108 ng/L (repeat at 1 h pending).
+Imp: Suspected NSTE-ACS.
+Plan: Aspirin 300 mg loading, ticagrelor per protocol, fondaparinux. Cardiology referral, admit CCU."
+N017,2025-06-25,Outpatient letter - cardiology,"CARDIOLOGY OUTPATIENT LETTER
+Re: Mrs X, 61 y.
+Diagnosis: Stable angina - PCI to LAD 2 months ago. LVEF 54%.
+She has completed cardiac rehabilitation and reports no further chest pain. Exercise tolerance limited by knee pain.
+Risk factors: T2DM, hypertension.
+Lifestyle: Divorced, lives alone. Unemployed since 2021. Alcohol: ~4 units/week. Smoker, 8 cigarettes/day.
+Medication: Aspirin 80 mg, ticagrelor 90 mg BD, atorvastatin 80 mg, bisoprolol 2.5 mg, ramipril 5 mg.
+On examination BP 137/74, HR 61. LDL 1.4 mmol/L.
+Plan: Continue DAPT to 12 months, then aspirin monotherapy. Repeat echo in 6 months."
+N018,2025-08-21,Emergency department note,"EMERGENCY DEPARTMENT NOTE
+PC: Central chest pain, onset 1 h prior to arrival, tight, radiating to left arm. Associated sweating and nausea.
+PMH: No significant history.
+DH: Nil. NKDA.
+SH: Lives with husband. Works as a lorry driver. Alcohol: occasional.
+FH: Father: MI aged 70.
+O/E: HR 82, BP 157/80, SpO2 96%. HS I+II+0. Chest clear.
+ECG: Sinus rhythm, no acute ST changes.
+hs-troponin T: 46 ng/L (repeat at 1 h pending).
+Imp: Suspected NSTE-ACS.
+Plan: Aspirin 300 mg loading, ticagrelor per protocol, fondaparinux. Cardiology referral, admit CCU. Brief advice given on cutting down roll-ups."
+N019,2026-01-01,Outpatient note - gastroenterology,"GASTROENTEROLOGY CLINIC
+51-year-old man with 8 months of epigastric burning and acid reflux, worse after meals and lying flat. No dysphagia, vomiting, GI bleeding or weight loss.
+OGD (last month): LA grade B oesophagitis, small hiatus hernia.
+Meds: Pantoprazole 40 mg OD, aspirin 80 mg.
+Social: Lives with wife. Works as a lorry driver. Gave up the cigarettes after a bad chest infection in 2023. Teetotal.
+Plan: H. pylori eradication therapy. Review 3 months."
+N020,2025-07-31,Outpatient note - dermatology,"DERMATOLOGY CLINIC
+30 y woman with hand eczema for 17 years.
+Current: Fissured dermatitis both palms, worse with work.
+Treatment to date: Topical steroids, emollients.
+Other history: Obesity.
+Social: Lives alone, works full-time in retail. Rolls her own - about a pouch a week. Alcohol: ~4 units/week.
+Plan: Patch testing; occupational health letter. Review 3 months."
+N021,2025-10-26,Outpatient note - diabetes,"DIABETES CLINIC REVIEW
+51-year-old man with type 2 diabetes diagnosed 2010.
+HbA1c 71 mmol/mol (previous 68). Weight 87 kg.
+Medication: Metformin 1 g BD, gliclazide 80 mg BD, atorvastatin 20 mg.
+Complications screen: Retinal screening normal. Monofilament sensation intact. uACR 1.2 mg/mmol.
+Social: Lives with wife. Works as an engineer. Non-smoker; wife smokes heavily at home - discussed passive smoke exposure. Drinks socially.
+BP 150/85.
+Plan: Increase gliclazide. Recheck HbA1c in 3 months."
+N022,2025-09-11,Outpatient note - psychiatry,"PSYCHIATRY OUTPATIENT ASSESSMENT
+59-year-old woman referred by GP with low mood for 8 months, anhedonia, early-morning waking and poor concentration. PHQ-9 23. No psychotic features. Passive thoughts of death, no active plans or intent.
+Past psychiatric history: One previous depressive episode 2016.
+Medication: Nil.
+Personal/social: Married, works part-time. Independent. Father died of lung cancer aged 66 (heavy smoker). Alcohol: occasional.
+Risk: Low-moderate; protective factors - family, employment.
+Plan: Start sertraline 50 mg. Refer psychological therapies. Review 4 weeks. Crisis numbers given."
+N023,2026-01-30,Emergency department note,"EMERGENCY DEPARTMENT - Minor injuries
+30 y man. Inversion injury to left ankle on stairs at home today. Able to weight-bear 4 steps only.
+PMH: Hypertension. Meds: Inhalers.
+SH: Lives alone, works full-time in hospitality. Has never smoked or vaped. Teetotal.
+O/E: Swelling and bruising lateral malleolus. Tender ATFL, no bony tenderness posterior edge of malleoli or base of 5th MT. Ottawa rules negative.
+Imp: Lateral ligament sprain.
+Plan: No X-ray. Analgesia, RICE, early mobilisation. Physio leaflet given."
+N024,2025-03-04,Pre-operative assessment,"PRE-OPERATIVE ASSESSMENT
+Planned procedure: Elective total knee replacement (L).
+Patient: 80 y man. ASA 2.
+PMH: Osteoarthritis, hypertension.
+Anaesthetic history: Previous GA 2010 uneventful.
+Airway: Mallampati 2, good mouth opening, full neck movement.
+Functional capacity: >4 METs, climbs 2 flights of stairs.
+Social history: Retired farmer, lives with wife. Alcohol: ~20 units/week, advised to reduce. Smoking history to be completed by practice nurse.
+Investigations: Hb 136 g/L, creat 75, eGFR >60. ECG sinus rhythm. MRSA screen negative.
+Plan: Fit for surgery. Stop ibuprofen 5 days pre-op. Continue regular medication on the morning of surgery."
+N025,2026-01-28,GP consultation,"GP CONSULTATION
+32-year-old man with 14-day history of productive cough, green sputum, mild fever. No haemoptysis, no weight loss. Some wheeze at night.
+PMH: Type 2 diabetes (diet-controlled).
+Meds: Nil regular.
+SH: Lives alone, works full-time in logistics. Non-smoker since 2017. Alcohol: 1-2 glasses of wine at weekends.
+O: T 37.6, RR 18, SpO2 96% RA, HR 83. Scattered coarse crackles R base, no bronchial breathing.
+A: Lower respiratory tract infection, CRB-65 score 0.
+P: Amoxicillin 500 mg TDS 5 days. Safety-netting advice given. Return if worsening or not improved in 3 days."
+N026,2025-07-31,GP consultation,"GP CONSULTATION - hypertension review
+Mrs X, 60 y.
+S: Attends for BP review. Home readings average 149/93. No headaches, chest pain or visual disturbance. Taking amlodipine 5 mg OD, occasionally forgets.
+PMH: Hypertension (2019), hypercholesterolaemia.
+SH: Divorced, lives alone. Unemployed since 2019. Never smoked. Her son vapes and she dislikes the smell. Alcohol: nil.
+FH: Father: MI aged 70.
+O: BP 157/97 (repeat 153/95), HR 74 reg. BMI 32. Heart sounds normal, no oedema.
+Bloods (last month): creat 91 umol/L, eGFR >60, K 4.5, total chol 5.6.
+A: Hypertension, suboptimally controlled.
+P: Increase amlodipine to 10 mg. Lifestyle advice (salt, exercise). Review 4 weeks with home BP diary."
+N027,2025-01-15,Outpatient note - vascular surgery,"VASCULAR SURGERY CLINIC
+61-year-old woman referred with left calf claudication at ~200 m. No rest pain or tissue loss.
+PMH: Hypercholesterolaemia, previous MI.
+Social: Lives with husband. Works as a farmer. Teetotal.
+Exam: Absent popliteal and pedal pulses on affected side. ABPI 0.52. Feet warm, no ulceration.
+Duplex: Multilevel stenoses, SFA and popliteal.
+Plan: Best medical therapy - clopidogrel 75 mg, atorvastatin 80 mg. Supervised exercise programme. Review 3 months; consider angioplasty if lifestyle-limiting. Check eligibility for lung cancer screening at next visit (smoking history needed)."
+N028,2025-02-14,Outpatient note - lung nodule clinic,"LUNG NODULE CLINIC
+79-year-old man with an incidental 6 mm solid nodule in the right middle lobe on CT performed for trauma.
+Brock risk score: 13%.
+Symptoms: No cough, haemoptysis or weight loss.
+Background: Nil.
+SH: Widowed, lives alone. Daughter visits daily. Alcohol: occasional. Lifelong non-smoker.
+FH: Sister: breast cancer.
+Plan: Discuss at lung MDT."
+N029,2025-04-19,Discharge summary,"DISCHARGE SUMMARY - General Medicine
+Patient: Mrs X, 58 y. Length of stay: 6 days.
+Diagnosis: Community-acquired pneumonia, right lower lobe (CURB-65 = 2).
+History: Admitted with 4 days of fever, rigors, productive cough and pleuritic chest pain. CXR: RLL consolidation. CRP 257 on admission.
+Course: Treated with IV co-amoxiclav and oral clarithromycin, switched to oral on day 3. Brief AKI (creat peak 135), resolved with IV fluids. Mobilising independently at discharge.
+Background: AF on apixaban.
+Social: Lives with husband. Works as a civil servant. Teetotal. Never smoker.
+Discharge meds: Co-amoxiclav 625 mg TDS to complete 7 days total; regular meds unchanged.
+Follow-up: GP review 1 week; repeat CXR in 6 weeks."
+N030,2025-07-16,Outpatient note - rheumatology,"RHEUMATOLOGY CLINIC
+44 y man with seropositive rheumatoid arthritis (RF+, anti-CCP+) diagnosed 2017.
+Current: 6 swollen and 5 tender joints, morning stiffness 1-2 h. DAS28-CRP 3.8.
+Treatment: Methotrexate 15 mg weekly SC, folic acid.
+Comorbidities: Nil.
+Social: Divorced, lives alone. Unemployed since 2021. Drinks socially. Gave up the cigarettes after a bad chest infection in 2016.
+Bloods: CRP 25, ALT 29, eGFR >60.
+Plan: Add hydroxychloroquine. If inadequate response at 3 months, consider biologic. Vaccinations reviewed."
+N031,2026-07-21,Antenatal booking,"ANTENATAL BOOKING VISIT
+38-year-old G2P1, 10+2 weeks by dates. Dating scan booked.
+Obstetric history: Previous emergency caesarean section for failure to progress.
+Medical history: Previous depression, currently well.
+Medication: Folic acid 400 mcg.
+Social: Lives with husband, works as a software developer. Alcohol: none since positive pregnancy test. Former smoker, gave up in 2017.
+Booking bloods: FBC, blood group and antibodies, HIV/hepatitis B/syphilis screen sent. BP 108/74, BMI 27.
+Plan: Routine midwife-led care. Advised re vitamin D. Next appointment at 16 weeks."
+N032,2026-04-15,Outpatient note - ophthalmology,"OPHTHALMOLOGY CLINIC
+87 y woman. Gradual blurring of vision in the left eye over 12 months, glare when driving at night.
+VA: R 6/24, L 6/18. IOP R 13 L 17 mmHg.
+Anterior segment: Nuclear sclerotic cataract 2+. Fundi: healthy discs, macula flat.
+General health: T2DM, no retinopathy.
+Social: Retired farmer, lives with husband. Former smoker, gave up in 2023. Alcohol: nil.
+Plan: List for phacoemulsification + IOL, left eye. Biometry today. Consent discussed."
+N033,2025-10-05,Outpatient letter - cardiology,"CARDIOLOGY OUTPATIENT LETTER
+Re: Mrs X, 74 y.
+Diagnosis: Anterior NSTEMI - PCI to RCA 3 months ago. LVEF 53%.
+She has completed cardiac rehabilitation and reports no further chest pain. Exercise tolerance good.
+Risk factors: T2DM, hypertension.
+Lifestyle: Widowed, lives alone. Daughter visits daily. Drinks socially. Non-smoker.
+Medication: Aspirin 80 mg, ticagrelor 90 mg BD, atorvastatin 80 mg, bisoprolol 2.5 mg, ramipril 5 mg.
+On examination BP 122/78, HR 62. LDL 1.4 mmol/L.
+Plan: Continue DAPT to 12 months, then aspirin monotherapy. Repeat echo in 6 months."
+N034,2025-02-17,Outpatient letter - respiratory,"RESPIRATORY CLINIC LETTER
+Dear colleague,
+I reviewed this 67-year-old woman with COPD (GOLD 2) in clinic today. She reports two exacerbations requiring oral steroids in the past year and MRC dyspnoea grade 3.
+Spirometry: FEV1 57% predicted, FEV1/FVC 0.53.
+Current inhalers: Tiotropium/olodaterol, salbutamol prn. Inhaler technique reviewed and adequate.
+Social: Widowed, lives alone. Daughter visits daily. Has cut down to 5 cigarettes/day (was 20). Wants referral to the stop-smoking service. Alcohol: occasional.
+Plan: Refer pulmonary rehabilitation. Influenza and pneumococcal vaccination up to date. Rescue pack provided. Review 6 months.
+Kind regards,
+Respiratory Physician"
+N035,2026-06-07,GP consultation,"GP CONSULTATION - hypertension review
+Mr X, 70 y.
+S: Attends for BP review. Home readings average 147/84. No headaches, chest pain or visual disturbance. Taking amlodipine 5 mg OD, occasionally forgets.
+PMH: Hypertension (2019), hypercholesterolaemia.
+SH: Lives with wife in a bungalow, independent with ADLs. Denies smoking or vaping. Alcohol: ~4 units/week.
+FH: Mother: type 2 diabetes.
+O: BP 155/88 (repeat 151/86), HR 72 reg. BMI 26. Heart sounds normal, no oedema.
+Bloods (last month): creat 87 umol/L, eGFR >60, K 4.6, total chol 5.5.
+A: Hypertension, suboptimally controlled.
+P: Increase amlodipine to 10 mg. Lifestyle advice (salt, exercise). Review 4 weeks with home BP diary."
+N036,2026-06-25,Antenatal booking,"ANTENATAL BOOKING VISIT
+41-year-old G1P0, 11+6 weeks by dates. Dating scan booked.
+Obstetric history: Previous emergency caesarean section for failure to progress.
+Medical history: Mild asthma.
+Medication: Folic acid 400 mcg.
+Social: Divorced, lives alone. Unemployed since 2019. Has tried to quit twice; the last attempt lasted two weeks and she is smoking again. No alcohol in pregnancy.
+Booking bloods: FBC, blood group and antibodies, HIV/hepatitis B/syphilis screen sent. BP 121/68, BMI 26.
+Plan: Routine midwife-led care. Advised re vitamin D. Next appointment at 16 weeks."
+N037,2026-07-15,Outpatient note - psychiatry,"PSYCHIATRY OUTPATIENT ASSESSMENT
+34-year-old man referred by GP with low mood for 6 months, anhedonia, early-morning waking and poor concentration. PHQ-9 15. No psychotic features. Passive thoughts of death, no active plans or intent.
+Past psychiatric history: Anxiety disorder, CBT in 2020.
+Medication: Nil.
+Personal/social: Lives with wife, works as a teacher. Has never smoked or vaped. Teetotal.
+Risk: Low-moderate; protective factors - family, employment.
+Plan: Start sertraline 50 mg. Refer psychological therapies. Review 4 weeks. Crisis numbers given."
+N038,2025-11-11,Outpatient note - lung nodule clinic,"LUNG NODULE CLINIC
+65-year-old man with an incidental 6 mm solid nodule in the right upper lobe on CT performed for staging of colon cancer.
+Brock risk score: 9%.
+Symptoms: No cough, haemoptysis or weight loss.
+Background: Nil.
+SH: Divorced, lives alone. Unemployed since 2019. Alcohol: occasional.
+FH: Sister: breast cancer.
+Plan: Repeat CT in 3 months."
+N039,2025-11-10,Outpatient letter - cardiology,"CARDIOLOGY OUTPATIENT LETTER
+Re: Mrs X, 70 y.
+Diagnosis: Stable angina - PCI to LAD 3 months ago. LVEF 48%.
+She has completed cardiac rehabilitation and reports no further chest pain. Exercise tolerance good.
+Risk factors: hypertension, hypercholesterolaemia.
+Lifestyle: Retired carpenter, lives with husband. Alcohol: nil. Non-smoker since 2016.
+Medication: Aspirin 80 mg, ticagrelor 90 mg BD, atorvastatin 80 mg, bisoprolol 2.5 mg, ramipril 5 mg.
+On examination BP 129/80, HR 57. LDL 2.1 mmol/L.
+Plan: Continue DAPT to 12 months, then aspirin monotherapy. Repeat echo in 6 months."
+N040,2026-01-11,Outpatient note - vascular surgery,"VASCULAR SURGERY CLINIC
+71-year-old man referred with left calf claudication at ~50 m. No rest pain or tissue loss.
+PMH: Hypercholesterolaemia, previous MI.
+Social: Lives with wife in a bungalow, independent with ADLs. Drinks socially. No longer smokes; smoked in his twenties.
+Exam: Absent popliteal and pedal pulses on affected side. ABPI 0.68. Feet warm, no ulceration.
+Duplex: Multilevel stenoses, SFA and popliteal.
+Plan: Best medical therapy - clopidogrel 75 mg, atorvastatin 80 mg. Supervised exercise programme. Review 3 months; consider angioplasty if lifestyle-limiting."
+N041,2026-06-05,Discharge summary,"DISCHARGE SUMMARY - General Medicine
+Patient: Mrs X, 70 y. Length of stay: 3 days.
+Diagnosis: Community-acquired pneumonia, right lower lobe (CURB-65 = 1).
+History: Admitted with 4 days of fever, rigors, productive cough and pleuritic chest pain. CXR: RLL consolidation. CRP 140 on admission.
+Course: Treated with IV co-amoxiclav and oral clarithromycin, switched to oral on day 2. Brief AKI (creat peak 140), resolved with IV fluids. Mobilising independently at discharge.
+Background: Hypertension, osteoarthritis.
+Social: Lives in sheltered accommodation, mobilises with a stick. Former smoker, gave up in 2012. Teetotal.
+Discharge meds: Co-amoxiclav 625 mg TDS to complete 7 days total; regular meds unchanged.
+Follow-up: GP review 1 week; repeat CXR in 6 weeks."
+N042,2025-12-23,Outpatient note - dermatology,"DERMATOLOGY CLINIC
+74 y woman with hand eczema for 19 years.
+Current: Fissured dermatitis both palms, worse with work.
+Treatment to date: Topical steroids, emollients.
+Other history: Obesity.
+Social: Lives with husband in a bungalow, independent with ADLs. Alcohol: ~20 units/week, advised to reduce.
+Plan: Patch testing; occupational health letter. Review 3 months. Stop-smoking advice not applicable - has never used tobacco or e-cigarettes."
+N043,2025-06-04,Emergency department note,"EMERGENCY DEPARTMENT - Minor injuries
+27 y man. Inversion injury to right ankle stepping off a kerb today. Able to weight-bear 4 steps only.
+PMH: Asthma. Meds: Amlodipine.
+SH: Lives alone, works full-time in logistics. Has always steered clear of tobacco and e-cigarettes. Alcohol: ~4 units/week.
+O/E: Swelling and bruising lateral malleolus. Tender ATFL, no bony tenderness posterior edge of malleoli or base of 5th MT. Ottawa rules negative.
+Imp: Lateral ligament sprain.
+Plan: No X-ray. Analgesia, RICE, early mobilisation. Physio leaflet given."
+N044,2026-03-15,Emergency department note,"EMERGENCY DEPARTMENT NOTE
+PC: Central chest pain, onset 5 h prior to arrival, tight, radiating to left arm. Associated sweating and nausea.
+PMH: Hypercholesterolaemia.
+DH: Atorvastatin 20 mg. NKDA.
+SH: Widowed, lives alone. Daughter visits daily. Alcohol: ~4 units/week. Advised to avoid smoky environments.
+FH: Father: MI aged 70.
+O/E: HR 79, BP 166/82, SpO2 97%. HS I+II+0. Chest clear.
+ECG: ST depression V4-V6.
+hs-troponin T: 78 ng/L (repeat at 1 h pending).
+Imp: Suspected NSTE-ACS.
+Plan: Aspirin 300 mg loading, ticagrelor per protocol, fondaparinux. Cardiology referral, admit CCU."
+N045,2026-08-11,Outpatient note - ophthalmology,"OPHTHALMOLOGY CLINIC
+73 y woman. Gradual blurring of vision in the right eye over 12 months, glare when driving at night.
+VA: R 6/18, L 6/12. IOP R 13 L 17 mmHg.
+Anterior segment: Posterior subcapsular cataract. Fundi: healthy discs, macula flat.
+General health: Fit and well.
+Social: Lives with husband in a bungalow, independent with ADLs. Alcohol: occasional. Has never been a smoker; works in a bar where customers smoke outside the door.
+Plan: List for phacoemulsification + IOL, right eye. Biometry today. Consent discussed."
+N046,2025-04-01,Outpatient note - gastroenterology,"GASTROENTEROLOGY CLINIC
+49-year-old man with 12 months of epigastric burning and acid reflux, worse after meals and lying flat. No dysphagia, vomiting, GI bleeding or weight loss.
+OGD (last month): Mild antral gastritis, H. pylori CLO-test positive.
+Meds: Lansoprazole 30 mg OD, aspirin 80 mg.
+Social: Divorced, lives alone. Unemployed since 2023. Drinks socially. Former smoker (15 pack-years), stopped 20 years ago.
+Plan: Increase PPI to BD for 8 weeks. Review 3 months."
+N047,2025-12-16,Outpatient note - diabetes,"DIABETES CLINIC REVIEW
+45-year-old woman with type 2 diabetes diagnosed 2019.
+HbA1c 65 mmol/mol (previous 67). Weight 110 kg.
+Medication: Metformin 1 g BD, empagliflozin 10 mg, atorvastatin 20 mg.
+Complications screen: Retinal screening normal. Monofilament sensation intact. uACR 1.2 mg/mmol.
+Social: Married, works part-time. Independent. Alcohol: ~4 units/week.
+BP 146/88.
+Plan: Continue current regimen, dietitian referral. Recheck HbA1c in 3 months. Nicotine patches prescribed to support a quit attempt starting next week."
+N048,2026-01-14,Outpatient letter - respiratory,"RESPIRATORY CLINIC LETTER
+Dear colleague,
+I reviewed this 55-year-old man with COPD (GOLD 3) in clinic today. He reports one exacerbation requiring oral steroids in the past year and MRC dyspnoea grade 3.
+Spirometry: FEV1 62% predicted, FEV1/FVC 0.62.
+Current inhalers: Umeclidinium/vilanterol, salbutamol prn. Inhaler technique reviewed and adequate.
+Social: Divorced, lives alone. Unemployed since 2021. Used to roll his own; hasn't touched tobacco in years. Alcohol: nil.
+Plan: Refer pulmonary rehabilitation. Influenza and pneumococcal vaccination up to date. Rescue pack provided. Review 6 months.
+Kind regards,
+Respiratory Physician"
+N049,2025-01-18,GP consultation,"GP CONSULTATION
+61-year-old woman with 5-day history of productive cough, green sputum, mild fever. No haemoptysis, no weight loss. Some wheeze at night.
+PMH: Hypothyroidism.
+Meds: Levothyroxine 75 mcg.
+SH: Divorced, lives alone. Unemployed since 2019. Smoker, 30 cigarettes/day. Alcohol: nil.
+O: T 37.9, RR 16, SpO2 95% RA, HR 93. Scattered coarse crackles R base, no bronchial breathing.
+A: Lower respiratory tract infection, CRB-65 score 0.
+P: Amoxicillin 500 mg TDS 5 days. Safety-netting advice given. Return if worsening or not improved in 3 days."
+N050,2025-07-13,Pre-operative assessment,"PRE-OPERATIVE ASSESSMENT
+Planned procedure: Elective total knee replacement (R).
+Patient: 79 y man. ASA 2.
+PMH: Osteoarthritis, hypertension.
+Anaesthetic history: PONV after previous GA.
+Airway: Mallampati 2, good mouth opening, full neck movement.
+Functional capacity: >4 METs, climbs 2 flights of stairs.
+Social history: Lives with wife in a bungalow, independent with ADLs. Father died of lung cancer aged 66 (heavy smoker). Alcohol: 1-2 glasses of wine at weekends.
+Investigations: Hb 132 g/L, creat 72, eGFR >60. ECG sinus rhythm. MRSA screen negative.
+Plan: Fit for surgery. Stop ibuprofen 5 days pre-op. Continue regular medication on the morning of surgery."
+N051,2026-03-25,Outpatient note - rheumatology,"RHEUMATOLOGY CLINIC
+56 y woman with seropositive rheumatoid arthritis (RF+, anti-CCP+) diagnosed 2023.
+Current: 5 swollen and 11 tender joints, morning stiffness 1-2 h. DAS28-CRP 4.4.
+Treatment: Methotrexate 15 mg weekly SC, folic acid.
+Comorbidities: Hypertension.
+Social: Divorced, lives alone. Unemployed since 2019. Smoked 10/day for about 15 years, stopped when her first child was born. Alcohol: ~4 units/week.
+Bloods: CRP 24, ALT 39, eGFR >60.
+Plan: Add hydroxychloroquine. If inadequate response at 3 months, consider biologic. Vaccinations reviewed."
+N052,2026-06-29,GP consultation,"GP CONSULTATION - hypertension review
+Mr X, 74 y.
+S: Attends for BP review. Home readings average 144/93. No headaches, chest pain or visual disturbance. Taking amlodipine 5 mg OD, occasionally forgets.
+PMH: Hypertension (2019), hypercholesterolaemia.
+SH: Lives in sheltered accommodation, mobilises with a stick. Alcohol: ~20 units/week, advised to reduce. Smoking history to be completed by practice nurse.
+FH: Father: stroke aged 78.
+O: BP 152/97 (repeat 148/95), HR 78 reg. BMI 33. Heart sounds normal, no oedema.
+Bloods (last month): creat 82 umol/L, eGFR >60, K 4.2, total chol 5.2.
+A: Hypertension, suboptimally controlled.
+P: Increase amlodipine to 10 mg. Lifestyle advice (salt, exercise). Review 4 weeks with home BP diary."
+N053,2025-03-13,Outpatient letter - respiratory,"RESPIRATORY CLINIC LETTER
+Dear colleague,
+I reviewed this 74-year-old woman with COPD (GOLD 2) in clinic today. She reports one exacerbation requiring oral steroids in the past year and MRC dyspnoea grade 3.
+Spirometry: FEV1 42% predicted, FEV1/FVC 0.52.
+Current inhalers: Tiotropium/olodaterol, salbutamol prn. Inhaler technique reviewed and adequate.
+Social: Lives in sheltered accommodation, mobilises with a stick. Alcohol: 1-2 glasses of wine at weekends. Tobacco: 5 pack-years to date, no plans to stop.
+Plan: Refer pulmonary rehabilitation. Influenza and pneumococcal vaccination up to date. Rescue pack provided. Review 6 months.
+Kind regards,
+Respiratory Physician"
+N054,2025-02-09,Outpatient note - dermatology,"DERMATOLOGY CLINIC
+37 y man with hidradenitis suppurativa for 7 years.
+Current: Recurrent nodules both axillae, Hurley stage II.
+Treatment to date: Doxycycline courses, chlorhexidine wash.
+Other history: Nil.
+Social: Lives with wife, works as a shop assistant. Alcohol: 10-14 units/week. Has always steered clear of tobacco and e-cigarettes.
+Plan: Refer for consideration of adalimumab. Review 3 months."
+N055,2025-05-23,Pre-operative assessment,"PRE-OPERATIVE ASSESSMENT
+Planned procedure: Elective total knee replacement (L).
+Patient: 59 y man. ASA 2.
+PMH: Osteoarthritis, hypothyroidism.
+Anaesthetic history: PONV after previous GA.
+Airway: Mallampati 1, good mouth opening, full neck movement.
+Functional capacity: >4 METs, climbs 2 flights of stairs.
+Social history: Divorced, lives alone. Unemployed since 2021. Alcohol: occasional.
+Investigations: Hb 144 g/L, creat 86, eGFR >60. ECG sinus rhythm. MRSA screen negative.
+Plan: Fit for surgery. Stop ibuprofen 5 days pre-op. Continue regular medication on the morning of surgery. Check eligibility for lung cancer screening at next visit (smoking history needed)."
+N056,2025-09-10,Antenatal booking,"ANTENATAL BOOKING VISIT
+30-year-old G3P2, 8+6 weeks by dates. Dating scan booked.
+Obstetric history: Nil (primigravida).
+Medical history: Mild asthma.
+Medication: Folic acid 400 mcg.
+Social: Lives alone, works full-time in logistics. No alcohol in pregnancy. Has cut down to 5 cigarettes/day (was 20). Wants referral to the stop-smoking service.
+Booking bloods: FBC, blood group and antibodies, HIV/hepatitis B/syphilis screen sent. BP 116/68, BMI 24.
+Plan: Routine midwife-led care. Advised re vitamin D. Next appointment at 16 weeks."
+N057,2026-02-15,Outpatient note - diabetes,"DIABETES CLINIC REVIEW
+71-year-old man with type 2 diabetes diagnosed 2017.
+HbA1c 75 mmol/mol (previous 69). Weight 111 kg.
+Medication: Metformin 1 g BD, sitagliptin 100 mg, atorvastatin 20 mg.
+Complications screen: Retinal screening normal. Monofilament sensation intact. uACR 3.8 mg/mmol.
+Social: Lives in sheltered accommodation, mobilises with a stick. Father died of lung cancer aged 66 (heavy smoker). Alcohol: 1-2 glasses of wine at weekends.
+BP 132/75.
+Plan: Increase gliclazide. Recheck HbA1c in 3 months."
+N058,2025-04-05,Outpatient note - psychiatry,"PSYCHIATRY OUTPATIENT ASSESSMENT
+36-year-old man referred by GP with low mood for 5 months, anhedonia, early-morning waking and poor concentration. PHQ-9 16. No psychotic features. Passive thoughts of death, no active plans or intent.
+Past psychiatric history: One previous depressive episode 2016.
+Medication: Sertraline 50 mg for 6 weeks, partial response.
+Personal/social: Lives alone, works full-time in logistics. Alcohol: ~4 units/week. Never smoked. His son vapes and he dislikes the smell.
+Risk: Low-moderate; protective factors - family, employment.
+Plan: Increase sertraline to 100 mg. Refer psychological therapies. Review 4 weeks. Crisis numbers given."
+N059,2025-11-01,Outpatient note - rheumatology,"RHEUMATOLOGY CLINIC
+68 y woman with seropositive rheumatoid arthritis (RF+, anti-CCP+) diagnosed 2020.
+Current: 5 swollen and 8 tender joints, morning stiffness 1-2 h. DAS28-CRP 4.4.
+Treatment: Methotrexate 25 mg weekly SC, folic acid.
+Comorbidities: Nil.
+Social: Retired carpenter, lives with husband. Alcohol: occasional.
+Bloods: CRP 41, ALT 26, eGFR >60.
+Plan: Add sulfasalazine. If inadequate response at 3 months, consider biologic. Vaccinations reviewed."
+N060,2026-03-25,Outpatient letter - cardiology,"CARDIOLOGY OUTPATIENT LETTER
+Re: Mrs X, 69 y.
+Diagnosis: Anterior NSTEMI - PCI to circumflex 2 months ago. LVEF 52%.
+She has completed cardiac rehabilitation and reports no further chest pain. Exercise tolerance improving.
+Risk factors: hypercholesterolaemia, family history.
+Lifestyle: Lives with husband in a bungalow, independent with ADLs. Never smoked. Her daughter vapes and she dislikes the smell. Alcohol: ~20 units/week, advised to reduce.
+Medication: Aspirin 80 mg, ticagrelor 90 mg BD, atorvastatin 80 mg, bisoprolol 2.5 mg, ramipril 5 mg.
+On examination BP 129/68, HR 64. LDL 1.4 mmol/L.
+Plan: Continue DAPT to 12 months, then aspirin monotherapy. Repeat echo in 6 months."
+N061,2025-11-09,Outpatient note - lung nodule clinic,"LUNG NODULE CLINIC
+58-year-old woman with an incidental 14 mm solid nodule in the left upper lobe on CT performed for staging of colon cancer.
+Brock risk score: 21%.
+Symptoms: No cough, haemoptysis or weight loss.
+Background: Hypertension.
+SH: Married, works part-time. Independent. Alcohol: 10-14 units/week. Stopped smoking 6 months ago.
+FH: Mother: type 2 diabetes.
+Plan: PET-CT."
+N062,2026-01-16,Outpatient note - vascular surgery,"VASCULAR SURGERY CLINIC
+62-year-old woman referred with bilateral calf claudication at ~50 m. No rest pain or tissue loss.
+PMH: Hypercholesterolaemia, previous MI.
+Social: Married, works part-time. Independent. Teetotal.
+Exam: Absent popliteal and pedal pulses on affected side. ABPI 0.74. Feet warm, no ulceration.
+Duplex: Superficial femoral artery occlusion (8 cm).
+Plan: Best medical therapy - clopidogrel 75 mg, atorvastatin 80 mg. Supervised exercise programme. Review 3 months; consider angioplasty if lifestyle-limiting. Check eligibility for lung cancer screening at next visit (smoking history needed)."
+N063,2026-04-05,Discharge summary,"DISCHARGE SUMMARY - General Medicine
+Patient: Mrs X, 86 y. Length of stay: 5 days.
+Diagnosis: Community-acquired pneumonia, right lower lobe (CURB-65 = 2).
+History: Admitted with 4 days of fever, rigors, productive cough and pleuritic chest pain. CXR: RLL consolidation. CRP 275 on admission.
+Course: Treated with IV co-amoxiclav and oral clarithromycin, switched to oral on day 4. Brief AKI (creat peak 143), resolved with IV fluids. Mobilising independently at discharge.
+Background: AF on apixaban.
+Social: Retired bank clerk, lives with husband. Alcohol: occasional. Non-smoker; husband smokes heavily at home - discussed passive smoke exposure.
+Discharge meds: Co-amoxiclav 625 mg TDS to complete 7 days total; regular meds unchanged.
+Follow-up: GP review 1 week; repeat CXR in 6 weeks."
+N064,2026-03-22,Emergency department note,"EMERGENCY DEPARTMENT NOTE
+PC: Central chest pain, onset 4 h prior to arrival, heavy, radiating to jaw. Associated sweating and nausea.
+PMH: Hypertension, T2DM.
+DH: Ramipril 5 mg, metformin 1 g BD. NKDA.
+SH: Married, works part-time. Independent. Alcohol: occasional. Denies current smoking. Previously smoked ~20 pack-years.
+FH: Mother: hypertension.
+O/E: HR 88, BP 166/93, SpO2 96%. HS I+II+0. Chest clear.
+ECG: T-wave inversion in II, III, aVF.
+hs-troponin T: 84 ng/L (repeat at 1 h pending).
+Imp: Suspected NSTE-ACS.
+Plan: Aspirin 300 mg loading, ticagrelor per protocol, fondaparinux. Cardiology referral, admit CCU."
+N065,2025-04-07,Emergency department note,"EMERGENCY DEPARTMENT - Minor injuries
+48 y woman. Inversion injury to right ankle playing football today. Able to weight-bear 4 steps only.
+PMH: Asthma. Meds: Inhalers.
+SH: Lives with husband. Works as a civil servant. Stopped smoking 2 months ago. Alcohol: 10-14 units/week.
+O/E: Swelling and bruising lateral malleolus. Tender ATFL, no bony tenderness posterior edge of malleoli or base of 5th MT. Ottawa rules negative.
+Imp: Lateral ligament sprain.
+Plan: No X-ray. Analgesia, RICE, early mobilisation. Physio leaflet given."
+N066,2026-05-23,GP consultation,"GP CONSULTATION
+71-year-old man with 14-day history of productive cough, green sputum, mild fever. No haemoptysis, no weight loss. Some wheeze at night.
+PMH: Type 2 diabetes (diet-controlled).
+Meds: Nil regular.
+SH: Retired bank clerk, lives with wife. Rolls his own - about a pouch a week. Teetotal.
+O: T 37.8, RR 17, SpO2 98% RA, HR 87. Scattered coarse crackles R base, no bronchial breathing.
+A: Lower respiratory tract infection, CRB-65 score 0.
+P: Amoxicillin 500 mg TDS 5 days. Safety-netting advice given. Return if worsening or not improved in 3 days."
+N067,2026-02-14,Outpatient note - gastroenterology,"GASTROENTEROLOGY CLINIC
+68-year-old man with 7 months of epigastric burning and acid reflux, worse after meals and lying flat. No dysphagia, vomiting, GI bleeding or weight loss.
+OGD (last month): Normal; duodenal biopsies normal.
+Meds: Lansoprazole 30 mg OD, aspirin 80 mg.
+Social: Lives with wife in a bungalow, independent with ADLs. Was seen smoking outside the main entrance earlier today. Drinks socially.
+Plan: H. pylori eradication therapy. Review 3 months."
+N068,2026-05-02,Outpatient note - psychiatry,"PSYCHIATRY OUTPATIENT ASSESSMENT
+19-year-old woman referred by GP with low mood for 4 months, anhedonia, early-morning waking and poor concentration. PHQ-9 21. No psychotic features. Passive thoughts of death, no active plans or intent.
+Past psychiatric history: None.
+Medication: Citalopram 20 mg for 3 months, minimal response.
+Personal/social: Lives alone, works full-time in hospitality. Alcohol: ~4 units/week.
+Risk: Low-moderate; protective factors - family, employment.
+Plan: Switch to mirtazapine 15 mg nocte. Refer psychological therapies. Review 4 weeks. Crisis numbers given. Referred to the stop-smoking service; quit date agreed for next month."
+N069,2026-01-24,Outpatient note - ophthalmology,"OPHTHALMOLOGY CLINIC
+88 y woman. Gradual blurring of vision in the left eye over 12 months, glare when driving at night.
+VA: R 6/12, L 6/9. IOP R 18 L 17 mmHg.
+Anterior segment: Posterior subcapsular cataract. Fundi: healthy discs, macula flat.
+General health: T2DM, no retinopathy.
+Social: Widowed, lives alone. Daughter visits daily. Alcohol: occasional. Smoked 10/day for about 15 years, stopped when her first child was born.
+Plan: List for phacoemulsification + IOL, left eye. Biometry today. Consent discussed."
+N070,2025-05-09,Outpatient note - lung nodule clinic,"LUNG NODULE CLINIC
+73-year-old woman with an incidental 8 mm solid nodule in the right upper lobe on CT performed for staging of colon cancer.
+Brock risk score: 12%.
+Symptoms: No cough, haemoptysis or weight loss.
+Background: Nil.
+SH: Retired carpenter, lives with husband. Stopped smoking 6 months ago. Alcohol: occasional.
+FH: Mother: type 2 diabetes.
+Plan: Repeat CT in 3 months."
+N071,2025-05-04,Outpatient note - vascular surgery,"VASCULAR SURGERY CLINIC
+56-year-old woman referred with right calf claudication at ~200 m. No rest pain or tissue loss.
+PMH: Hypertension, CKD 3a.
+Social: Lives with husband. Works as an engineer. Former smoker (20 pack-years), stopped 6 years ago. Alcohol: occasional.
+Exam: Absent popliteal and pedal pulses on affected side. ABPI 0.74. Feet warm, no ulceration.
+Duplex: Multilevel stenoses, SFA and popliteal.
+Plan: Best medical therapy - clopidogrel 75 mg, atorvastatin 80 mg. Supervised exercise programme. Review 3 months; consider angioplasty if lifestyle-limiting."
+N072,2025-05-12,Outpatient note - dermatology,"DERMATOLOGY CLINIC
+53 y man with chronic plaque psoriasis for 2 years.
+Current: PASI 12, affecting elbows, knees, scalp.
+Treatment to date: Topical steroids, calcipotriol.
+Other history: Obesity.
+Social: Lives with wife. Works as a lorry driver. Alcohol: 1-2 glasses of wine at weekends.
+Plan: Start methotrexate 15 mg weekly with folic acid; baseline bloods. Review 3 months."
+N073,2025-02-10,GP consultation,"GP CONSULTATION
+63-year-old man with 10-day history of productive cough, green sputum, mild fever. No haemoptysis, no weight loss. Some wheeze at night.
+PMH: Nil significant.
+Meds: Nil regular.
+SH: Divorced, lives alone. Unemployed since 2021. Drinks socially.
+O: T 37.7, RR 17, SpO2 98% RA, HR 91. Scattered coarse crackles R base, no bronchial breathing.
+A: Lower respiratory tract infection, CRB-65 score 0.
+P: Amoxicillin 500 mg TDS 5 days. Safety-netting advice given. Return if worsening or not improved in 3 days."
+N074,2025-05-12,Antenatal booking,"ANTENATAL BOOKING VISIT
+30-year-old G3P2, 8+0 weeks by dates. Dating scan booked.
+Obstetric history: Nil (primigravida).
+Medical history: Previous depression, currently well.
+Medication: Folic acid 400 mcg.
+Social: Lives alone, works full-time in construction. Pack-years: 10 (stopped 2019). No alcohol in pregnancy.
+Booking bloods: FBC, blood group and antibodies, HIV/hepatitis B/syphilis screen sent. BP 109/72, BMI 23.
+Plan: Routine midwife-led care. Advised re vitamin D. Next appointment at 16 weeks."
+N075,2025-04-21,Emergency department note,"EMERGENCY DEPARTMENT NOTE
+PC: Central chest pain, onset 2 h prior to arrival, heavy, radiating to left arm. Associated sweating and nausea.
+PMH: Hypertension.
+DH: Amlodipine 5 mg. NKDA.
+SH: Lives in sheltered accommodation, mobilises with a stick. Alcohol: 1-2 glasses of wine at weekends. Non-smoker.
+FH: Mother: type 2 diabetes.
+O/E: HR 93, BP 165/80, SpO2 96%. HS I+II+0. Chest clear.
+ECG: ST depression V4-V6.
+hs-troponin T: 107 ng/L (repeat at 1 h pending).
+Imp: Suspected NSTE-ACS.
+Plan: Aspirin 300 mg loading, ticagrelor per protocol, fondaparinux. Cardiology referral, admit CCU."
+N076,2026-05-22,Outpatient letter - cardiology,"CARDIOLOGY OUTPATIENT LETTER
+Re: Mrs X, 65 y.
+Diagnosis: Stable angina - PCI to circumflex 3 months ago. LVEF 41%.
+She has completed cardiac rehabilitation and reports no further chest pain. Exercise tolerance improving.
+Risk factors: hypercholesterolaemia, family history.
+Lifestyle: Lives with husband. Works as a farmer. Triage form records 'non-smoker'; on direct questioning admits to smoking 5 cigarettes per day. Alcohol: ~20 units/week, advised to reduce.
+Medication: Aspirin 80 mg, ticagrelor 90 mg BD, atorvastatin 80 mg, bisoprolol 2.5 mg, ramipril 5 mg.
+On examination BP 127/78, HR 67. LDL 2.1 mmol/L.
+Plan: Continue DAPT to 12 months, then aspirin monotherapy. Repeat echo in 6 months."
+N077,2025-01-15,Outpatient letter - respiratory,"RESPIRATORY CLINIC LETTER
+Dear colleague,
+I reviewed this 52-year-old man with COPD (GOLD 3) in clinic today. He reports one exacerbation requiring oral steroids in the past year and MRC dyspnoea grade 3.
+Spirometry: FEV1 56% predicted, FEV1/FVC 0.48.
+Current inhalers: Tiotropium/olodaterol, salbutamol prn. Inhaler technique reviewed and adequate.
+Social: Married, works part-time. Independent. Tobacco: current smoker, 12 cig/day. Alcohol: occasional.
+Plan: Refer pulmonary rehabilitation. Influenza and pneumococcal vaccination up to date. Rescue pack provided. Review 6 months.
+Kind regards,
+Respiratory Physician"
+N078,2025-04-17,Outpatient note - ophthalmology,"OPHTHALMOLOGY CLINIC
+76 y man. Gradual blurring of vision in the right eye over 12 months, glare when driving at night.
+VA: R 6/24, L 6/12. IOP R 19 L 16 mmHg.
+Anterior segment: Nuclear sclerotic cataract 2+. Fundi: healthy discs, macula flat.
+General health: T2DM, no retinopathy.
+Social: Lives with wife in a bungalow, independent with ADLs. Former smoker, gave up in 2019. Alcohol: ~4 units/week.
+Plan: List for phacoemulsification + IOL, right eye. Biometry today. Consent discussed."
+N079,2025-02-12,GP consultation,"GP CONSULTATION - hypertension review
+Mrs X, 55 y.
+S: Attends for BP review. Home readings average 140/85. No headaches, chest pain or visual disturbance. Taking amlodipine 5 mg OD, occasionally forgets.
+PMH: Hypertension (2019), hypercholesterolaemia.
+SH: Divorced, lives alone. Unemployed since 2021. Teetotal. Gave up the cigarettes after a bad chest infection in 2022.
+FH: Mother: hypertension.
+O: BP 148/89 (repeat 144/87), HR 86 reg. BMI 26. Heart sounds normal, no oedema.
+Bloods (last month): creat 72 umol/L, eGFR >60, K 4.4, total chol 5.8.
+A: Hypertension, suboptimally controlled.
+P: Increase amlodipine to 10 mg. Lifestyle advice (salt, exercise). Review 4 weeks with home BP diary."
+N080,2025-10-09,Discharge summary,"DISCHARGE SUMMARY - General Medicine
+Patient: Mr X, 79 y. Length of stay: 9 days.
+Diagnosis: Community-acquired pneumonia, right lower lobe (CURB-65 = 2).
+History: Admitted with 4 days of fever, rigors, productive cough and pleuritic chest pain. CXR: RLL consolidation. CRP 217 on admission.
+Course: Treated with IV co-amoxiclav and oral clarithromycin, switched to oral on day 2. Brief AKI (creat peak 139), resolved with IV fluids. Mobilising independently at discharge.
+Background: T2DM, CKD stage 3a.
+Social: Lives with wife in a bungalow, independent with ADLs. Alcohol: 1-2 glasses of wine at weekends. Spends about EUR 60 a week on tobacco.
+Discharge meds: Co-amoxiclav 625 mg TDS to complete 7 days total; regular meds unchanged.
+Follow-up: GP review 1 week; repeat CXR in 6 weeks."
+N081,2025-10-17,Emergency department note,"EMERGENCY DEPARTMENT - Minor injuries
+51 y man. Inversion injury to right ankle stepping off a kerb today. Able to weight-bear with pain.
+PMH: Asthma. Meds: Amlodipine.
+SH: Lives with wife. Works as a civil servant. Wife smokes in the garden. Alcohol: ~4 units/week.
+O/E: Swelling and bruising lateral malleolus. Tender ATFL, no bony tenderness posterior edge of malleoli or base of 5th MT. Ottawa rules negative.
+Imp: Lateral ligament sprain.
+Plan: No X-ray. Analgesia, RICE, early mobilisation. Physio leaflet given."
+N082,2025-11-27,Outpatient note - diabetes,"DIABETES CLINIC REVIEW
+46-year-old woman with type 2 diabetes diagnosed 2010.
+HbA1c 58 mmol/mol (previous 61). Weight 88 kg.
+Medication: Metformin 1 g BD, empagliflozin 10 mg, atorvastatin 20 mg.
+Complications screen: Retinal screening normal. Monofilament sensation intact. uACR 6.4 mg/mmol.
+Social: Married, works part-time. Independent. Teetotal.
+BP 148/80.
+Plan: Continue current regimen, dietitian referral. Recheck HbA1c in 3 months."
+N083,2025-12-24,Pre-operative assessment,"PRE-OPERATIVE ASSESSMENT
+Planned procedure: Elective total knee replacement (L).
+Patient: 61 y woman. ASA 2.
+PMH: Osteoarthritis, GORD.
+Anaesthetic history: No previous anaesthetics.
+Airway: Mallampati 1, good mouth opening, full neck movement.
+Functional capacity: >4 METs, climbs 2 flights of stairs.
+Social history: Divorced, lives alone. Unemployed since 2023. Alcohol: nil. Has never been a smoker; works in a bar where customers smoke outside the door.
+Investigations: Hb 120 g/L, creat 70, eGFR >60. ECG sinus rhythm. MRSA screen negative.
+Plan: Fit for surgery. Stop ibuprofen 5 days pre-op. Continue regular medication on the morning of surgery."
+N084,2026-04-23,Outpatient note - gastroenterology,"GASTROENTEROLOGY CLINIC
+28-year-old man with 8 months of epigastric burning and acid reflux, worse after meals and lying flat. No dysphagia, vomiting, GI bleeding or weight loss.
+OGD (last month): LA grade B oesophagitis, small hiatus hernia.
+Meds: Pantoprazole 40 mg OD, ibuprofen 400 mg prn for back pain.
+Social: Lives with wife, works as an accountant. Uses an e-cigarette throughout the day, never smoked cigarettes. Alcohol: ~20 units/week, advised to reduce.
+Plan: H. pylori eradication therapy. Review 3 months."
+N085,2026-03-10,Outpatient note - rheumatology,"RHEUMATOLOGY CLINIC
+37 y man with seropositive rheumatoid arthritis (RF+, anti-CCP+) diagnosed 2023.
+Current: 3 swollen and 8 tender joints, morning stiffness 1-2 h. DAS28-CRP 3.8.
+Treatment: Methotrexate 25 mg weekly SC, folic acid.
+Comorbidities: Osteoporosis.
+Social: Lives alone, works full-time in construction. Alcohol: ~4 units/week. Smokes a pipe most evenings.
+Bloods: CRP 22, ALT 32, eGFR >60.
+Plan: Add hydroxychloroquine. If inadequate response at 3 months, consider biologic. Vaccinations reviewed."
+N086,2025-11-23,Outpatient note - psychiatry,"PSYCHIATRY OUTPATIENT ASSESSMENT
+27-year-old man referred by GP with low mood for 5 months, anhedonia, early-morning waking and poor concentration. PHQ-9 14. No psychotic features. Passive thoughts of death, no active plans or intent.
+Past psychiatric history: One previous depressive episode 2016.
+Medication: Sertraline 50 mg for 6 weeks, partial response.
+Personal/social: Lives alone, works full-time in logistics. Never smoked. His son vapes and he dislikes the smell. Alcohol: 1-2 glasses of wine at weekends.
+Risk: Low-moderate; protective factors - family, employment.
+Plan: Increase sertraline to 100 mg. Refer psychological therapies. Review 4 weeks. Crisis numbers given."
+N087,2025-10-30,Pre-operative assessment,"PRE-OPERATIVE ASSESSMENT
+Planned procedure: Elective total knee replacement (L).
+Patient: 55 y man. ASA 2.
+PMH: Osteoarthritis, obesity (BMI 36).
+Anaesthetic history: Previous GA 2010 uneventful.
+Airway: Mallampati 1, good mouth opening, full neck movement.
+Functional capacity: >4 METs, climbs 2 flights of stairs.
+Social history: Married, works part-time. Independent. Drinks socially.
+Investigations: Hb 127 g/L, creat 85, eGFR >60. ECG sinus rhythm. MRSA screen negative.
+Plan: Fit for surgery. Stop ibuprofen 5 days pre-op. Continue regular medication on the morning of surgery."
+N088,2026-07-25,Outpatient letter - cardiology,"CARDIOLOGY OUTPATIENT LETTER
+Re: Mrs X, 60 y.
+Diagnosis: Anterior NSTEMI - PCI to circumflex 3 months ago. LVEF 51%.
+She has completed cardiac rehabilitation and reports no further chest pain. Exercise tolerance limited by knee pain.
+Risk factors: hypertension, hypercholesterolaemia.
+Lifestyle: Lives with husband. Works as a secretary. Alcohol: occasional.
+Medication: Aspirin 80 mg, ticagrelor 90 mg BD, atorvastatin 80 mg, bisoprolol 2.5 mg, ramipril 5 mg.
+On examination BP 130/68, HR 62. LDL 1.4 mmol/L.
+Plan: Continue DAPT to 12 months, then aspirin monotherapy. Repeat echo in 6 months. Congratulated on staying smoke-free since 2024."
+N089,2026-01-29,Outpatient note - lung nodule clinic,"LUNG NODULE CLINIC
+59-year-old man with an incidental 6 mm solid nodule in the right upper lobe on CT performed for abdominal pain.
+Brock risk score: 5%.
+Symptoms: No cough, haemoptysis or weight loss.
+Background: Hypertension.
+SH: Married, works part-time. Independent. Alcohol: nil. Never smoked.
+FH: Sister: breast cancer.
+Plan: PET-CT."
+N090,2026-03-21,GP consultation,"GP CONSULTATION
+31-year-old man with 7-day history of productive cough, green sputum, mild fever. No haemoptysis, no weight loss. Some wheeze at night.
+PMH: Type 2 diabetes (diet-controlled).
+Meds: Nil regular.
+SH: Lives alone, works full-time in retail. Teetotal.
+O: T 37.7, RR 19, SpO2 97% RA, HR 89. Scattered coarse crackles R base, no bronchial breathing.
+A: Lower respiratory tract infection, CRB-65 score 0.
+P: Amoxicillin 500 mg TDS 5 days. Safety-netting advice given. Return if worsening or not improved in 3 days. Check eligibility for lung cancer screening at next visit (smoking history needed)."
+N091,2025-03-16,Outpatient note - dermatology,"DERMATOLOGY CLINIC
+39 y man with hand eczema for 15 years.
+Current: Fissured dermatitis both palms, worse with work.
+Treatment to date: Topical steroids, emollients.
+Other history: Nil.
+Social: Lives alone, works full-time in construction. Alcohol: ~4 units/week. He smokes about a pack a day and has done so since age 17.
+Plan: Patch testing; occupational health letter. Review 3 months."
+N092,2026-07-31,Antenatal booking,"ANTENATAL BOOKING VISIT
+27-year-old G2P1, 9+2 weeks by dates. Dating scan booked.
+Obstetric history: Previous SVD at term, uncomplicated.
+Medical history: Hypothyroidism on levothyroxine.
+Medication: Folic acid 400 mcg.
+Social: Lives with husband, works as a bus driver. Alcohol: none since positive pregnancy test. Used to roll her own; hasn't touched tobacco in years.
+Booking bloods: FBC, blood group and antibodies, HIV/hepatitis B/syphilis screen sent. BP 115/69, BMI 25.
+Plan: Routine midwife-led care. Advised re vitamin D. Next appointment at 16 weeks."
+N093,2026-01-03,Outpatient note - gastroenterology,"GASTROENTEROLOGY CLINIC
+54-year-old woman with 16 months of epigastric burning and acid reflux, worse after meals and lying flat. No dysphagia, vomiting, GI bleeding or weight loss.
+OGD (last month): LA grade B oesophagitis, small hiatus hernia.
+Meds: Pantoprazole 40 mg OD, Gaviscon prn.
+Social: Married, works part-time. Independent. Current smoker, approx. 15 pack-years. Alcohol: nil.
+Plan: Lifestyle advice: weight loss, raise head of bed, avoid late meals. Review 3 months."
+N094,2026-03-28,Emergency department note,"EMERGENCY DEPARTMENT NOTE
+PC: Central chest pain, onset 3 h prior to arrival, tight, radiating to left arm. Associated sweating and nausea.
+PMH: No significant history.
+DH: Nil. NKDA.
+SH: Divorced, lives alone. Unemployed since 2023. Drinks socially. Ex-smoker.
+FH: Nil relevant.
+O/E: HR 93, BP 147/94, SpO2 98%. HS I+II+0. Chest clear.
+ECG: ST depression V4-V6.
+hs-troponin T: 18 ng/L (repeat at 1 h pending).
+Imp: Suspected NSTE-ACS.
+Plan: Aspirin 300 mg loading, ticagrelor per protocol, fondaparinux. Cardiology referral, admit CCU."
+N095,2025-05-17,GP consultation,"GP CONSULTATION - hypertension review
+Mrs X, 51 y.
+S: Attends for BP review. Home readings average 151/98. No headaches, chest pain or visual disturbance. Taking amlodipine 5 mg OD, occasionally forgets.
+PMH: Hypertension (2019), hypercholesterolaemia.
+SH: Lives with husband. Works as a plumber. Alcohol: occasional. Husband smokes in the garden.
+FH: Mother: hypertension.
+O: BP 159/102 (repeat 155/100), HR 86 reg. BMI 26. Heart sounds normal, no oedema.
+Bloods (last month): creat 69 umol/L, eGFR >60, K 4.1, total chol 5.8.
+A: Hypertension, suboptimally controlled.
+P: Increase amlodipine to 10 mg. Lifestyle advice (salt, exercise). Review 4 weeks with home BP diary."
+N096,2025-09-24,Discharge summary,"DISCHARGE SUMMARY - General Medicine
+Patient: Mr X, 65 y. Length of stay: 7 days.
+Diagnosis: Community-acquired pneumonia, right lower lobe (CURB-65 = 1).
+History: Admitted with 4 days of fever, rigors, productive cough and pleuritic chest pain. CXR: RLL consolidation. CRP 229 on admission.
+Course: Treated with IV co-amoxiclav and oral clarithromycin, switched to oral on day 2. Brief AKI (creat peak 132), resolved with IV fluids. Mobilising independently at discharge.
+Background: Hypertension, osteoarthritis.
+Social: Lives with wife. Works as a plumber. Has never smoked. Alcohol: ~4 units/week.
+Discharge meds: Co-amoxiclav 625 mg TDS to complete 7 days total; regular meds unchanged.
+Follow-up: GP review 1 week; repeat CXR in 6 weeks."
+N097,2025-02-24,Emergency department note,"EMERGENCY DEPARTMENT - Minor injuries
+63 y man. Inversion injury to left ankle playing football today. Able to weight-bear with pain.
+PMH: Asthma. Meds: Nil.
+SH: Lives with wife. Works as an engineer. Alcohol: 10-14 units/week. Vapes daily; gave up cigarettes 2 years ago.
+O/E: Swelling and bruising lateral malleolus. Tender ATFL, no bony tenderness posterior edge of malleoli or base of 5th MT. Ottawa rules negative.
+Imp: Lateral ligament sprain.
+Plan: No X-ray. Analgesia, RICE, early mobilisation. Physio leaflet given."
+N098,2026-01-30,Outpatient note - diabetes,"DIABETES CLINIC REVIEW
+62-year-old woman with type 2 diabetes diagnosed 2016.
+HbA1c 56 mmol/mol (previous 64). Weight 79 kg.
+Medication: Metformin 1 g BD, gliclazide 80 mg BD, atorvastatin 20 mg.
+Complications screen: Retinal screening background retinopathy. Monofilament sensation intact. uACR 3.8 mg/mmol.
+Social: Lives with husband. Works as a farmer. Active smoker (15/day); stop-smoking advice given, not ready to quit at present. Alcohol: occasional.
+BP 137/74.
+Plan: Increase gliclazide. Recheck HbA1c in 3 months."
+N099,2025-09-26,Outpatient letter - respiratory,"RESPIRATORY CLINIC LETTER
+Dear colleague,
+I reviewed this 84-year-old woman with COPD (GOLD 3) in clinic today. She reports three exacerbations requiring oral steroids in the past year and MRC dyspnoea grade 3.
+Spirometry: FEV1 62% predicted, FEV1/FVC 0.60.
+Current inhalers: Beclometasone/formoterol/glycopyrronium, salbutamol prn. Inhaler technique reviewed and adequate.
+Social: Lives with husband in a bungalow, independent with ADLs. She smokes about a pack a day and has done so since age 15. Drinks socially.
+Plan: Refer pulmonary rehabilitation. Influenza and pneumococcal vaccination up to date. Rescue pack provided. Review 6 months.
+Kind regards,
+Respiratory Physician"
+N100,2025-04-24,Outpatient note - rheumatology,"RHEUMATOLOGY CLINIC
+56 y woman with seropositive rheumatoid arthritis (RF+, anti-CCP+) diagnosed 2024.
+Current: 5 swollen and 9 tender joints, morning stiffness 1-2 h. DAS28-CRP 4.4.
+Treatment: Methotrexate 15 mg weekly SC, folic acid.
+Comorbidities: Osteoporosis.
+Social: Married, works part-time. Independent. She smokes about a pack a day and has done so since age 14. Alcohol: 1-2 glasses of wine at weekends.
+Bloods: CRP 26, ALT 21, eGFR >60.
+Plan: Add sulfasalazine. If inadequate response at 3 months, consider biologic. Vaccinations reviewed."

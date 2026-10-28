@@ -7,7 +7,7 @@ wide: true
 
 <header class="post-header">
   <h1 class="post-title">LUMC LLM Community</h1>
-  <p class="page-intro community-intro">LLMcom is a hospital-wide platform for responsible, state-of-the-art LLM research in practice. Staff share practical experience, connect with other LUMC departments, and align work on shared needs.</p>
+  <p class="page-intro community-intro">Join the LUMC LLM community (LLMcom) and stay up to date regarding all things related to LLMs in LUMC research!</p>
 </header>
 
 <figure class="community-figure">

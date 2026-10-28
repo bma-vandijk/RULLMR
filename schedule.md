@@ -86,7 +86,7 @@ wide: true
   <div class="part" data-part="3">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">02</span>
-      <span class="part-name">Literature searching and reviewing</span>
+      <span class="part-name">Literature search</span>
       <span class="meta">7 October, 11.00-13.00, Group 1: V-02-046; Group 2: V-03-046</span>
       <span class="chev" aria-hidden="true">›</span>
     </button>
@@ -118,7 +118,7 @@ wide: true
   <div class="part" data-part="4">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">03</span>
-      <span class="part-name">Data collection and data management</span>
+      <span class="part-name">Data collection and management</span>
       <span class="meta">21 October, 13.00-15.00, Group 1: V-02-018; Group 2: V-02-022</span>
       <span class="chev" aria-hidden="true">›</span>
     </button>
@@ -150,7 +150,7 @@ wide: true
   <div class="part" data-part="5">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">04</span>
-      <span class="part-name">Research questions and study design</span>
+      <span class="part-name">Study design</span>
       <span class="meta">26 October, 13.00-15.00, Group 1: V-02-022; Group 2: V-02-046</span>
       <span class="chev" aria-hidden="true">›</span>
     </button>
@@ -174,13 +174,31 @@ wide: true
   <div class="part" data-part="6">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">05</span>
-      <span class="part-name">Data analysis and interpretation</span>
+      <span class="part-name">Data analysis</span>
       <span class="meta">2 November, 13.00-15.00, Group 1: V-02-018; Group 2: V-02-022</span>
       <span class="chev" aria-hidden="true">›</span>
     </button>
     <div class="chapters">
       <div class="chapter">
-        <p> </p>
+        <p markdown="1"> Analyse sensitive data for research in the cloud and with local LLMs.</p>
+        <ul class="file-list">
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/03-data-collection/03_data_collection_homework.pdf' | relative_url }}">Homework</a>
+            <span class="download-meta">PDF</span>
+          </li>
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/05-analysis/hospital_admissions.csv' | relative_url }}">ED table for Task 1</a>
+            <span class="download-meta">CSV</span>
+          </li>
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/05-analysis/clinical_notes.csv' | relative_url }}">Clinical notes for Task 2</a>
+            <span class="download-meta">CSV</span>
+          </li>
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/05-analysis/gold_labels.csv' | relative_url }}">Gold labels for Task 2</a>
+            <span class="download-meta">CSV</span>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -188,7 +206,7 @@ wide: true
   <div class="part" data-part="7">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">06</span>
-      <span class="part-name">Scientific writing and communication</span>
+      <span class="part-name">Scientific writing</span>
       <span class="meta">12 November, 13.00-15.00, Group 1: V-02-046; Group 2: V-03-046</span>
       <span class="chev" aria-hidden="true">›</span>
     </button>
@@ -202,7 +220,7 @@ wide: true
   <div class="part" data-part="8">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">07</span>
-      <span class="part-name">Peer review and editorial tasks</span>
+      <span class="part-name">Peer review</span>
       <span class="meta">16 November, 13.00-15.00, Group 1: V-02-018; Group 2: V-02-022</span>
       <span class="chev" aria-hidden="true">›</span>
     </button>
@@ -216,7 +234,7 @@ wide: true
   <div class="part" data-part="9">
     <button class="part-toggle" type="button" aria-expanded="false">
       <span class="idx">08</span>
-      <span class="part-name">Grant applications and research proposals</span>
+      <span class="part-name">Grant applications</span>
       <span class="meta">25 November, 13.00-15.00, Group 1: V-02-018; Group 2: V-02-022</span>
       <span class="chev" aria-hidden="true">›</span>
     </button>

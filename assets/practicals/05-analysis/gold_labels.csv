@@ -1,0 +1,101 @@
+note_id,smoking_status,difficulty,evidence
+N001,NEVER,easy,Has never smoked.
+N002,FORMER,hard,Pack-years: 10 (stopped 2022).
+N003,FORMER,hard,Pack-years: 5 (stopped 2016).
+N004,UNKNOWN,hard,"(no statement on patient's own smoking; distractor: ""Wife smokes in the garden."")"
+N005,FORMER,easy,"Ex-smoker, quit in 2005."
+N006,CURRENT,hard,Nicotine patches prescribed to support a quit attempt starting next week.
+N007,UNKNOWN,hard,(no statement; smoking-related diagnosis present but status not documented)
+N008,NEVER,hard,Has never touched a cigarette.
+N009,CURRENT,hard,Brief advice given on cutting down roll-ups.
+N010,UNKNOWN,easy,(no mention)
+N011,CURRENT,easy,"Smokes 12 cigarettes per day, not interested in stopping."
+N012,NEVER,easy,Lifelong non-smoker.
+N013,CURRENT,easy,"Smoker, 5 cigarettes/day."
+N014,NEVER,hard,Stop-smoking advice not applicable - has never used tobacco or e-cigarettes.
+N015,FORMER,easy,Stopped smoking 3 months ago.
+N016,NEVER,easy,Denies smoking or vaping.
+N017,CURRENT,easy,"Smoker, 8 cigarettes/day."
+N018,CURRENT,hard,Brief advice given on cutting down roll-ups.
+N019,FORMER,hard,Gave up the cigarettes after a bad chest infection in 2023.
+N020,CURRENT,hard,Rolls her own - about a pouch a week.
+N021,NEVER,hard,Non-smoker; wife smokes heavily at home - discussed passive smoke exposure.
+N022,UNKNOWN,hard,"(no statement on patient's own smoking; distractor: ""Father died of lung cancer aged 66 (heavy smoker)."")"
+N023,NEVER,easy,Has never smoked or vaped.
+N024,UNKNOWN,hard,"(no statement on patient's own smoking; distractor: ""Smoking history to be completed by practice nurse."")"
+N025,FORMER,hard,Non-smoker since 2017.
+N026,NEVER,hard,Never smoked. Her son vapes and she dislikes the smell.
+N027,UNKNOWN,hard,"(no statement on patient's own smoking; distractor: ""Check eligibility for lung cancer screening at next visit (smoking history needed)."")"
+N028,NEVER,easy,Lifelong non-smoker.
+N029,NEVER,easy,Never smoker.
+N030,FORMER,hard,Gave up the cigarettes after a bad chest infection in 2016.
+N031,FORMER,easy,"Former smoker, gave up in 2017."
+N032,FORMER,easy,"Former smoker, gave up in 2023."
+N033,NEVER,easy,Non-smoker.
+N034,CURRENT,hard,Has cut down to 5 cigarettes/day (was 20). Wants referral to the stop-smoking service.
+N035,NEVER,easy,Denies smoking or vaping.
+N036,CURRENT,hard,Has tried to quit twice; the last attempt lasted two weeks and she is smoking again.
+N037,NEVER,easy,Has never smoked or vaped.
+N038,UNKNOWN,hard,(no statement; smoking-related diagnosis present but status not documented)
+N039,FORMER,hard,Non-smoker since 2016.
+N040,FORMER,hard,No longer smokes; smoked in his twenties.
+N041,FORMER,easy,"Former smoker, gave up in 2012."
+N042,NEVER,hard,Stop-smoking advice not applicable - has never used tobacco or e-cigarettes.
+N043,NEVER,hard,Has always steered clear of tobacco and e-cigarettes.
+N044,UNKNOWN,hard,"(no statement on patient's own smoking; distractor: ""Advised to avoid smoky environments."")"
+N045,NEVER,hard,Has never been a smoker; works in a bar where customers smoke outside the door.
+N046,FORMER,easy,"Former smoker (15 pack-years), stopped 20 years ago."
+N047,CURRENT,hard,Nicotine patches prescribed to support a quit attempt starting next week.
+N048,FORMER,hard,Used to roll his own; hasn't touched tobacco in years.
+N049,CURRENT,easy,"Smoker, 30 cigarettes/day."
+N050,UNKNOWN,hard,"(no statement on patient's own smoking; distractor: ""Father died of lung cancer aged 66 (heavy smoker)."")"
+N051,FORMER,hard,"Smoked 10/day for about 15 years, stopped when her first child was born."
+N052,UNKNOWN,hard,"(no statement on patient's own smoking; distractor: ""Smoking history to be completed by practice nurse."")"
+N053,CURRENT,hard,"Tobacco: 5 pack-years to date, no plans to stop."
+N054,NEVER,hard,Has always steered clear of tobacco and e-cigarettes.
+N055,UNKNOWN,hard,"(no statement on patient's own smoking; distractor: ""Check eligibility for lung cancer screening at next visit (smoking history needed)."")"
+N056,CURRENT,hard,Has cut down to 5 cigarettes/day (was 20). Wants referral to the stop-smoking service.
+N057,UNKNOWN,hard,"(no statement on patient's own smoking; distractor: ""Father died of lung cancer aged 66 (heavy smoker)."")"
+N058,NEVER,hard,Never smoked. His son vapes and he dislikes the smell.
+N059,UNKNOWN,easy,(no mention)
+N060,NEVER,hard,Never smoked. Her daughter vapes and she dislikes the smell.
+N061,FORMER,easy,Stopped smoking 6 months ago.
+N062,UNKNOWN,hard,"(no statement on patient's own smoking; distractor: ""Check eligibility for lung cancer screening at next visit (smoking history needed)."")"
+N063,NEVER,hard,Non-smoker; husband smokes heavily at home - discussed passive smoke exposure.
+N064,FORMER,hard,Denies current smoking. Previously smoked ~20 pack-years.
+N065,FORMER,easy,Stopped smoking 2 months ago.
+N066,CURRENT,hard,Rolls his own - about a pouch a week.
+N067,CURRENT,hard,Was seen smoking outside the main entrance earlier today.
+N068,CURRENT,hard,Referred to the stop-smoking service; quit date agreed for next month.
+N069,FORMER,hard,"Smoked 10/day for about 15 years, stopped when her first child was born."
+N070,FORMER,easy,Stopped smoking 6 months ago.
+N071,FORMER,easy,"Former smoker (20 pack-years), stopped 6 years ago."
+N072,UNKNOWN,easy,(no mention)
+N073,UNKNOWN,easy,(no mention)
+N074,FORMER,hard,Pack-years: 10 (stopped 2019).
+N075,NEVER,easy,Non-smoker.
+N076,CURRENT,hard,Triage form records 'non-smoker'; on direct questioning admits to smoking 5 cigarettes per day.
+N077,CURRENT,easy,"Tobacco: current smoker, 12 cig/day."
+N078,FORMER,easy,"Former smoker, gave up in 2019."
+N079,FORMER,hard,Gave up the cigarettes after a bad chest infection in 2022.
+N080,CURRENT,hard,Spends about EUR 60 a week on tobacco.
+N081,UNKNOWN,hard,"(no statement on patient's own smoking; distractor: ""Wife smokes in the garden."")"
+N082,UNKNOWN,easy,(no mention)
+N083,NEVER,hard,Has never been a smoker; works in a bar where customers smoke outside the door.
+N084,CURRENT,hard,"Uses an e-cigarette throughout the day, never smoked cigarettes."
+N085,CURRENT,easy,Smokes a pipe most evenings.
+N086,NEVER,hard,Never smoked. His son vapes and he dislikes the smell.
+N087,UNKNOWN,easy,(no mention)
+N088,FORMER,hard,Congratulated on staying smoke-free since 2024.
+N089,NEVER,easy,Never smoked.
+N090,UNKNOWN,hard,"(no statement on patient's own smoking; distractor: ""Check eligibility for lung cancer screening at next visit (smoking history needed)."")"
+N091,CURRENT,easy,He smokes about a pack a day and has done so since age 17.
+N092,FORMER,hard,Used to roll her own; hasn't touched tobacco in years.
+N093,CURRENT,easy,"Current smoker, approx. 15 pack-years."
+N094,FORMER,easy,Ex-smoker.
+N095,UNKNOWN,hard,"(no statement on patient's own smoking; distractor: ""Husband smokes in the garden."")"
+N096,NEVER,easy,Has never smoked.
+N097,CURRENT,hard,Vapes daily; gave up cigarettes 2 years ago.
+N098,CURRENT,easy,"Active smoker (15/day); stop-smoking advice given, not ready to quit at present."
+N099,CURRENT,easy,She smokes about a pack a day and has done so since age 15.
+N100,CURRENT,easy,She smokes about a pack a day and has done so since age 14.

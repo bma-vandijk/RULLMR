@@ -46,13 +46,13 @@ The introductory session covers how LLMs work, the main ways to use them, and th
 
 The theme sessions each take one stage of the research cycle:
 
-- literature searching and reviewing
-- data collection and data management
-- research questions and study design
-- data analysis and interpretation
-- scientific writing and communication
-- peer review and editorial tasks
-- grant applications and research proposals
+- literature searching
+- Data collection and management
+- Study design
+- Data analysis
+- Scientific writing
+- Peer review and editorial tasks
+- Grant writing
 
 Each session mixes preparation, a conversation with one other participant, group discussion, exercises, and a short reflection. You practise the same things throughout: use a model for a clear purpose, check what it returns, write down what you did, and stay responsible for the scientific judgement.
 
