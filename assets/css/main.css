@@ -700,6 +700,48 @@ html[data-theme="dark"] .cta:hover {
   display: block;
 }
 
+/* ---- LLM Community --------------------------------------------------------- */
+
+.community-intro {
+  max-width: 40rem;
+}
+
+.community-figure {
+  margin: 1.5rem 0 0;
+}
+
+.community-frame {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+  box-shadow: var(--shadow);
+  line-height: 0;
+  overflow: hidden;
+}
+
+.community-frame a {
+  display: block;
+  text-decoration: none;
+}
+
+.community-frame a:focus-visible {
+  outline: 2px solid var(--navy);
+  outline-offset: 3px;
+}
+
+.community-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.community-figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+
 /* ---- Footer ---------------------------------------------------------------- */
 
 .site-footer {

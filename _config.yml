@@ -21,6 +21,7 @@ header_pages:
   - syllabus.md
   - schedule.md
   - about.md
+  - llmcom.md
 
 permalink: pretty
 markdown: kramdown
