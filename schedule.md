@@ -127,10 +127,6 @@ wide: true
         <p markdown="1"> Learn to use LLMs in cloud and local environments to support basic data preprocessing and extraction tasks.</p>
         <ul class="file-list">
           <li>
-            <a class="download-name" href="{{ '/assets/practicals/03-data-collection/03_data_collection_homework.pdf' | relative_url }}">Homework</a>
-            <span class="download-meta">PDF</span>
-          </li>
-          <li>
             <a class="download-name" href="{{ '/assets/practicals/03-data-collection/noisy_ehr.csv' | relative_url }}">EHR data for Task 1</a>
             <span class="download-meta">CSV</span>
           </li>
