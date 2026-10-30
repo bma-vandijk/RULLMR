@@ -183,7 +183,7 @@ wide: true
         <p markdown="1"> Analyse sensitive data for research in the cloud and with local LLMs.</p>
         <ul class="file-list">
           <li>
-            <a class="download-name" href="{{ '/assets/practicals/05-data-collection/05_data_analysis_homework.pdf' | relative_url }}">Homework</a>
+            <a class="download-name" href="{{ '/assets/practicals/05-analysis/05_data_analysis_homework.pdf' | relative_url }}">Homework</a>
             <span class="download-meta">PDF</span>
           </li>
           <li>
