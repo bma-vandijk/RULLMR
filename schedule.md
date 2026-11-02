@@ -198,6 +198,10 @@ wide: true
             <a class="download-name" href="{{ '/assets/practicals/05-analysis/gold_labels.csv' | relative_url }}">Gold labels for Task 2</a>
             <span class="download-meta">CSV</span>
           </li>
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/05-analysis/05_Data_analysis.pdf' | relative_url }}">Slides</a>
+            <span class="download-meta">PDF</span>
+          </li>
         </ul>
       </div>
     </div>
