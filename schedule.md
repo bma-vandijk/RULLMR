@@ -199,7 +199,7 @@ wide: true
             <span class="download-meta">CSV</span>
           </li>
           <li>
-            <a class="download-name" href="{{ '/assets/practicals/05-analysis/05_Data_analysis.pdf' | relative_url }}">Slides</a>
+            <a class="download-name" href="{{ '/assets/practicals/05-analysis/05_Data_analysis_RULLMR.pdf' | relative_url }}">Slides</a>
             <span class="download-meta">PDF</span>
           </li>
         </ul>
