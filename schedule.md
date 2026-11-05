@@ -163,7 +163,7 @@ wide: true
             <span class="download-meta">PDF</span>
           </li>
           <li>
-            <a class="download-name" href="{{ '/assets/practicals/04-design/04_study_design_RULLMR.pdf' | relative_url }}">Slides</a>
+            <a class="download-name" href="{{ '/assets/practicals/04-design/04_Study_design_RULLMR.pdf' | relative_url }}">Slides</a>
             <span class="download-meta">PDF</span>
           </li>
         </ul>
