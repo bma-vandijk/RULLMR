@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Results — writing exercise</title>
+ 
+</head>
+<body class="article-page">
+    <style>
+        :root { color-scheme:light; --ink:#172b4d; --muted:#61718a; --line:#d8e0ea; --blue:#245f9e; }
+* { box-sizing:border-box; }
+body { margin:0; background:#f5f7fa; color:var(--ink); font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { max-width:1100px; margin:32px auto; padding:0 20px 48px; }
+.manuscript { max-width:1000px; background:white; padding:32px; border:1px solid var(--line); }
+h1 { font-size:2.4rem; margin:0 0 8px; } h2 { font-size:1.35rem; margin:28px 0 12px; } p { margin:8px 0 16px; }
+.eyebrow { text-transform:uppercase; letter-spacing:.12em; font-size:.75rem; color:var(--blue); margin:0; }
+.note, figcaption { color:var(--muted); font-size:.9rem; } a { color:var(--blue); }
+[data-field]:not(.filled), .placeholder { background:#fff3bf; color:#665520; padding:0 3px; }
+[data-field].filled { background:transparent; color:inherit; padding:0; }
+.results-filled .template-note { display:none; }
+.table-wrap,.chart-container { overflow-x:auto; } table { width:100%; border-collapse:collapse; font-size:.9rem; margin:12px 0; }
+caption { text-align:left; font-weight:650; margin-bottom:8px; } th,td { padding:9px 12px; border-bottom:1px solid var(--line); text-align:right; }
+th:first-child { text-align:left; } thead th { background:#edf4fb; } tbody th { font-weight:500; }
+figure { margin:24px 0; } figcaption { margin-top:12px; }
+.flow { display:grid; justify-items:center; gap:8px; text-align:center; }
+.node { width:min(100%,580px); border:1px solid #a9bfd7; background:#f7fbff; border-radius:8px; padding:12px; }
+.node p { margin:6px 0; font-size:.8rem; } .node strong { font-size:1.25rem; } .arrow { color:#8494a8; font-size:1.4rem; line-height:1; }
+.branches { width:min(100%,750px); display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.excluded { border-color:#d8c6c6; background:#fffafa; } .included { border-color:#b4d5c7; background:#f5fbf8; }
+.legend { display:flex; flex-wrap:wrap; gap:20px; font-size:.9rem; } .legend span { display:flex; align-items:center; gap:7px; }
+.swatch { width:22px; height:3px; background:#245f9e; } .swatch.orange { background:#c46b26; }
+.km-svg { display:block; width:100%; min-width:580px; height:auto; }
+.card { background:white; border:1px solid var(--line); border-radius:12px; padding:20px; margin:18px 0; }
+.card h2 { margin-top:0; } .settings { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:14px; align-items:end; }
+label { display:block; font-size:.9rem; font-weight:650; margin-bottom:5px; } input,select,button { border:1px solid #b9c6d6; border-radius:6px; padding:9px; background:white; color:var(--ink); font:inherit; max-width:100%; }
+input[type=number],select { width:100%; } input[type=checkbox] { accent-color:var(--blue); margin-right:8px; } button { cursor:pointer; background:var(--blue); color:white; font-weight:650; } button:hover { background:#194c81; }
+.actions { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-top:16px; } .secondary { background:white; color:var(--blue); }
+.criteria-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:16px; } fieldset { border:1px solid var(--line); border-radius:8px; padding:14px; margin:0; } legend { font-weight:650; }
+.range-row { display:flex; gap:10px; align-items:center; } .range-row input { min-width:0; } .checks { margin:12px 0; } .checks label { font-weight:500; }
+.preview { width:100%; min-height:2600px; border:1px solid var(--line); background:white; } [role=status] { min-height:1.6em; }
+@media(max-width:580px) { main { margin-top:16px; padding:0 12px 24px; } .manuscript,.card { padding:16px; } .branches { grid-template-columns:1fr; } th,td { padding:7px; } }
+/* The article is styled independently of the simulator controls. */
+.article-page { background:#eeede9; color:#242424; }
+.manuscript {
+  max-width:900px;
+  margin:40px auto;
+  padding:36px 62px 44px;
+  border:0;
+  background:#fff;
+  box-shadow:0 2px 18px #00000008;
+  color:#242424;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:17px;
+  line-height:1.65;
+  font-variant-numeric:lining-nums tabular-nums;
+}
+.article-header { margin-bottom:20px; }
+.running-head {
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  padding-bottom:10px;
+  margin-bottom:26px;
+  border-bottom:1px solid #333;
+  font:11px/1.4 Arial,Helvetica,sans-serif;
+  letter-spacing:.055em;
+  text-transform:uppercase;
+  color:#535353;
+}
+.manuscript h1 { font-size:32px; line-height:1.15; font-weight:700; margin:0; }
+.manuscript h2 { font-size:19px; line-height:1.3; font-weight:700; margin:25px 0 8px; }
+.manuscript p { margin:0 0 12px; }
+.manuscript section > p { text-align:justify; hyphens:auto; }
+.manuscript [data-field]:not(.filled), .manuscript .placeholder {
+  color:#666;
+  background:#f4f3f0;
+  padding:0 2px;
+  font-style:italic;
+}
+.manuscript [data-field].filled { color:inherit; background:none; font-style:normal; }
+.manuscript td[data-field]:not(.filled) { background:none; }
+.article-page:not(.results-filled) .km-svg { display:none; }
+.manuscript #km-curve > .placeholder {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:150px;
+  padding:24px;
+  margin:8px 0 16px;
+  border:1px solid #aaa;
+  background:white;
+  font-size:13px;
+  text-align:center;
+}
+.results-filled #km-curve > .template-note { display:none; }
+.manuscript figure { margin:24px 0 28px; }
+.manuscript figcaption, .manuscript caption {
+  font-size:13px;
+  line-height:1.5;
+  color:#303030;
+  text-align:left;
+  font-weight:400;
+}
+.manuscript figcaption { margin-top:12px; }
+.manuscript caption { padding-bottom:7px; margin:0; }
+.manuscript table {
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:12px;
+  line-height:1.45;
+  border-top:1.5px solid #333;
+  border-bottom:1.5px solid #333;
+  margin:18px 0 8px;
+}
+.manuscript th, .manuscript td { padding:8px 9px; vertical-align:top; border:0; }
+.manuscript thead th { background:none; border-bottom:1px solid #777; font-weight:600; }
+.manuscript tbody th { font-weight:400; }
+.manuscript tbody tr:nth-child(even) { background:none; }
+.manuscript .note { font-size:12px; line-height:1.5; color:#555; text-align:left; }
+.manuscript .flow { gap:10px; padding:8px 16px 0; font:12px/1.5 Arial,Helvetica,sans-serif; }
+.manuscript .node { width:min(100%,420px); border:1px solid #777; border-radius:0; padding:12px 16px; background:white; }
+.manuscript .node strong { font-size:14px; font-weight:600; }
+.manuscript .node p { font-size:11px; line-height:1.45; margin:5px 0 0; }
+.manuscript .arrow { font-size:20px; color:#555; }
+.manuscript .branches { max-width:650px; gap:20px; }
+.manuscript .legend { justify-content:center; font:12px/1.5 Arial,Helvetica,sans-serif; gap:24px; margin-bottom:8px; }
+.manuscript .km-svg text { fill:#333; font-family:Arial,Helvetica,sans-serif; }
+.manuscript #risk-table { border:0; margin:0 0 12px; font-size:11px; }
+.manuscript #risk-table caption { font:11px/1.4 Arial,Helvetica,sans-serif; font-weight:600; }
+.manuscript #risk-table th, .manuscript #risk-table td { padding:4px 9px; }
+.manuscript #risk-table thead th { font-weight:400; border-bottom:1px solid #ccc; }
+.article-footer { margin-top:32px; padding-top:10px; border-top:1px solid #aaa; font-size:11px; line-height:1.5; color:#666; }
+.article-footer p { margin:0 0 4px; }
+@media(max-width:700px) {
+  .article-page { background:white; }
+  .manuscript { margin:0 auto; padding:24px 20px; box-shadow:none; font-size:16px; }
+  .running-head { font-size:9px; gap:12px; }
+  .manuscript section > p { text-align:left; }
+  .manuscript .flow { padding:0; }
+  .manuscript .branches { gap:12px; }
+  .manuscript table { min-width:500px; }
+}
+@media print {
+  @page { size:A4; margin:18mm 20mm; }
+  body.article-page { background:white; }
+  .manuscript { max-width:none; border:0; margin:0; padding:0; box-shadow:none; font-size:11pt; line-height:1.45; }
+  .manuscript h2 { break-after:avoid; }
+  .manuscript figure, .manuscript table { break-inside:avoid; }
+  .manuscript .table-wrap, .manuscript .chart-container { overflow:visible; }
+  .manuscript table { min-width:0; }
+  .manuscript .km-svg { min-width:0; }
+  .no-print { display:none; }
+}
+
+    </style>
+<main class="manuscript">
+  <header class="article-header">
+    <div class="running-head"><span>Original research</span><span>Chemotherapy versus surgery</span></div>
+    <h1>Results</h1>
+  </header>
+  <!-- No script is attached. Fill the data-field values and named containers
+       using your own Python, R, or JavaScript script. -->
+  <section aria-labelledby="participants-title">
+    <h2 id="participants-title">Participants</h2>
+    <p>Of <span data-field="screened_n">[screened N]</span> simulated patients assessed,
+      <span data-field="excluded_n">[excluded n]</span> did not meet the selected criteria.
+      The analysis included <span data-field="included_n">[included n]</span> participants:
+      <span data-field="chemo_n">[chemotherapy n]</span> in the chemotherapy group and
+      <span data-field="surgery_n">[surgery n]</span> in the surgery group.</p>
+    <p>Eligibility criteria: <span data-field="criteria">[describe the criteria applied]</span>.</p>
+    <figure>
+      <div class="flow" id="participant-flow" aria-label="Participant flow diagram">
+        <div class="node">Assessed for eligibility<br><strong data-field="screened_n">[N]</strong></div><div class="arrow" aria-hidden="true">↓</div>
+        <div class="branches"><div class="node excluded">Excluded<br><strong data-field="excluded_n">[n]</strong><p data-field="exclusion_reasons">[reasons and counts]</p></div><div class="node included">Included in analysis<br><strong data-field="included_n">[n]</strong></div></div>
+        <div class="arrow" aria-hidden="true">↓</div>
+        <div class="branches"><div class="node included">Chemotherapy<br><strong data-field="chemo_n">[n]</strong></div><div class="node included">Surgery<br><strong data-field="surgery_n">[n]</strong></div></div>
+      </div>
+      <figcaption><strong>Figure 1.</strong> Selection of participants from the simulated dataset. Each excluded patient is counted once under the first applicable reason.</figcaption>
+    </figure>
+  </section>
+  <section aria-labelledby="baseline-title">
+    <h2 id="baseline-title">Baseline characteristics</h2>
+    <p>Mean age was <span data-field="age_chemo_mean">[mean]</span> years (SD <span data-field="age_chemo_sd">[SD]</span>) in the chemotherapy group and
+      <span data-field="age_surgery_mean">[mean]</span> years (SD <span data-field="age_surgery_sd">[SD]</span>) in the surgery group.
+      Women accounted for <span data-field="women_chemo">[n (%)]</span> and <span data-field="women_surgery">[n (%)]</span> of the two groups, respectively.
+      Disease stage, performance status, and comorbidity are summarized in Table 1.</p>
+    <div class="table-wrap"><table id="baseline-table">
+      <caption><strong>Table 1.</strong> Baseline characteristics of included participants</caption>
+      <thead><tr><th scope="col">Characteristic</th><th scope="col">Chemotherapy<br>n = <span data-field="chemo_n">[n]</span></th><th scope="col">Surgery<br>n = <span data-field="surgery_n">[n]</span></th><th scope="col">Overall<br>n = <span data-field="included_n">[N]</span></th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Age, mean (SD), years</th><td data-field="age_chemo">[mean (SD)]</td><td data-field="age_surgery">[mean (SD)]</td><td data-field="age_overall">[mean (SD)]</td></tr>
+        <tr><th scope="row">Women, n (%)</th><td data-field="women_chemo">[n (%)]</td><td data-field="women_surgery">[n (%)]</td><td data-field="women_overall">[n (%)]</td></tr>
+        <tr><th scope="row">Stage I, n (%)</th><td data-field="stage_I_chemo">[n (%)]</td><td data-field="stage_I_surgery">[n (%)]</td><td data-field="stage_I_overall">[n (%)]</td></tr>
+        <tr><th scope="row">Stage II, n (%)</th><td data-field="stage_II_chemo">[n (%)]</td><td data-field="stage_II_surgery">[n (%)]</td><td data-field="stage_II_overall">[n (%)]</td></tr>
+        <tr><th scope="row">Stage III, n (%)</th><td data-field="stage_III_chemo">[n (%)]</td><td data-field="stage_III_surgery">[n (%)]</td><td data-field="stage_III_overall">[n (%)]</td></tr>
+        <tr><th scope="row">Stage IV, n (%)</th><td data-field="stage_IV_chemo">[n (%)]</td><td data-field="stage_IV_surgery">[n (%)]</td><td data-field="stage_IV_overall">[n (%)]</td></tr>
+        <tr><th scope="row">ECOG 0–1, n (%)</th><td data-field="ecog_chemo">[n (%)]</td><td data-field="ecog_surgery">[n (%)]</td><td data-field="ecog_overall">[n (%)]</td></tr>
+        <tr><th scope="row">Serious comorbidity, n (%)</th><td data-field="comorbidity_chemo">[n (%)]</td><td data-field="comorbidity_surgery">[n (%)]</td><td data-field="comorbidity_overall">[n (%)]</td></tr>
+      </tbody></table></div>
+    <p class="note">Values are mean (sample SD) or n (%). ECOG: Eastern Cooperative Oncology Group performance status.</p>
+  </section>
+  <section aria-labelledby="primary-title">
+    <h2 id="primary-title">Primary outcome</h2>
+    <p>The primary outcome was event-free survival, measured from simulated treatment assignment to the first recurrence or death, with follow-up censored at last contact or 36 months.
+      Events were observed in <span data-field="events_chemo">[n/N (%)]</span> chemotherapy participants and <span data-field="events_surgery">[n/N (%)]</span> surgery participants.
+      Kaplan–Meier estimates of event-free survival at 24 months were <span data-field="km24_chemo">[estimate]</span> and <span data-field="km24_surgery">[estimate]</span>, respectively (Figure 2).</p>
+    <figure>
+      <div class="legend"><span><i class="swatch"></i>Chemotherapy</span><span><i class="swatch orange"></i>Surgery</span></div>
+      <div id="km-curve" class="chart-container">
+        <p class="placeholder template-note">[Insert a Kaplan–Meier curve calculated from time_months and event.]</p>
+        <svg class="km-svg" viewBox="0 0 760 390" role="img" aria-labelledby="km-title km-description">
+          <title id="km-title">Event-free survival</title><desc id="km-description">Kaplan–Meier curves for chemotherapy and surgery, from 0 to 36 months.</desc>
+          <g id="km-grid"></g><g id="km-series"></g>
+          <g fill="#52647c" font-size="13" font-family="system-ui"><text x="394" y="374" text-anchor="middle">Months since treatment assignment</text><text transform="translate(18 185) rotate(-90)" text-anchor="middle">Event-free survival</text></g>
+        </svg>
+      </div>
+      <div class="table-wrap"><table id="risk-table"><caption>Number at risk</caption><thead><tr><th scope="col">Group / month</th><th scope="col">0</th><th scope="col">12</th><th scope="col">24</th><th scope="col">36</th></tr></thead><tbody>
+        <tr><th scope="row">Chemotherapy</th><td data-field="risk_chemo_0">[n]</td><td data-field="risk_chemo_12">[n]</td><td data-field="risk_chemo_24">[n]</td><td data-field="risk_chemo_36">[n]</td></tr>
+        <tr><th scope="row">Surgery</th><td data-field="risk_surgery_0">[n]</td><td data-field="risk_surgery_12">[n]</td><td data-field="risk_surgery_24">[n]</td><td data-field="risk_surgery_36">[n]</td></tr>
+      </tbody></table></div>
+      <figcaption><strong>Figure 2.</strong> Event-free survival in the simulated cohort through 36 months. Vertical ticks indicate censoring. Numbers at risk are measured immediately before the specified time. No inferential comparison is reported.</figcaption>
+    </figure>
+  </section>
+  <section aria-labelledby="secondary-title">
+    <h2 id="secondary-title">Secondary outcomes</h2>
+    <p>Grade 2 or higher adverse events within 30 days were recorded in <span data-field="adverse_chemo">[n (%)]</span> chemotherapy participants and <span data-field="adverse_surgery">[n (%)]</span> surgery participants.
+      Unplanned hospital admissions within 30 days occurred in <span data-field="admission_chemo">[n (%)]</span> and <span data-field="admission_surgery">[n (%)]</span>, respectively.
+      Mean duration of the initial treatment admission was <span data-field="stay_chemo_mean">[mean]</span> days in the chemotherapy group and <span data-field="stay_surgery_mean">[mean]</span> days in the surgery group (Table 2).</p>
+    <div class="table-wrap"><table id="secondary-table"><caption><strong>Table 2.</strong> Simulated secondary outcomes</caption><thead><tr><th scope="col">Outcome</th><th scope="col">Chemotherapy</th><th scope="col">Surgery</th></tr></thead><tbody>
+      <tr><th scope="row">Grade 2+ adverse event within 30 days, n (%)</th><td data-field="adverse_chemo">[n (%)]</td><td data-field="adverse_surgery">[n (%)]</td></tr>
+      <tr><th scope="row">Unplanned admission within 30 days, n (%)</th><td data-field="admission_chemo">[n (%)]</td><td data-field="admission_surgery">[n (%)]</td></tr>
+      <tr><th scope="row">Initial treatment admission, mean (SD), days</th><td data-field="stay_chemo">[mean (SD)]</td><td data-field="stay_surgery">[mean (SD)]</td></tr>
+    </tbody></table></div>
+  </section>
+  <footer class="article-footer">
+    <p><strong>Teaching example.</strong> All patient data and results are synthetic.</p>
+    <p class="template-note">Fields in square brackets are placeholders to be filled by an analysis script.</p>
+  </footer>
+</main>
+</body>
+</html>

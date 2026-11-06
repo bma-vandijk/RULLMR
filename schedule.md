@@ -216,7 +216,21 @@ wide: true
     </button>
     <div class="chapters">
       <div class="chapter">
-        <p></p>
+        <p markdown="1"> Analyse sensitive data for research in the cloud and with local LLMs.</p>
+        <ul class="file-list">
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/06-scientific-writing/06_writing_homework.pdf' | relative_url }}">Homework</a>
+            <span class="download-meta">PDF</span>
+          </li>
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/06-scientific-writing/demo-patients.csv' | relative_url }}">Optional exercise data</a>
+            <span class="download-meta">CSV</span>
+          </li>
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/06-scientific-writing/results.html' | relative_url }}">Optional exercise section</a>
+            <span class="download-meta">HTML</span>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -230,7 +244,6 @@ wide: true
     </button>
     <div class="chapters">
       <div class="chapter">
-        <p> </p>
       </div>
     </div>
   </div>
