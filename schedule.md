@@ -216,7 +216,7 @@ wide: true
     </button>
     <div class="chapters">
       <div class="chapter">
-        <p markdown="1"> Analyse sensitive data for research in the cloud and with local LLMs.</p>
+        <p markdown="1"> Use LLMs for generating or polishing texts.</p>
         <ul class="file-list">
           <li>
             <a class="download-name" href="{{ '/assets/practicals/06-scientific-writing/06_writing_homework.pdf' | relative_url }}">Homework</a>
@@ -229,6 +229,10 @@ wide: true
           <li>
             <a class="download-name" href="{{ '/assets/practicals/06-scientific-writing/results.html' | relative_url }}">Optional exercise section</a>
             <span class="download-meta">HTML</span>
+          </li>
+          <li>
+            <a class="download-name" href="{{ '/assets/practicals/06-scientific-writing/06_Article_writing.pdf' | relative_url }}">Slides</a>
+            <span class="download-meta">PDF</span>
           </li>
         </ul>
       </div>
